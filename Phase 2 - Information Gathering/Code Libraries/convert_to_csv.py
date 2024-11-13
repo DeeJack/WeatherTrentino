@@ -1,10 +1,10 @@
 import json
 
 FILES = [
-    './air_quality.json',
-    './waste_differentiated.json',
-    './waste_undifferentiated.json',
-    './waste_differentiated_2019.json'
+    '../../Data/air_quality.json',
+    '../../Data/waste_differentiated.json',
+    '../../Data/waste_undifferentiated.json',
+    '../../Data/waste_differentiated_2019.json'
 ]
 
 for file in FILES:

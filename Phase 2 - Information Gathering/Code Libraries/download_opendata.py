@@ -18,6 +18,6 @@ for resource_id in RESOURCE_IDS:
         print(f'Error: {response.status_code}')
         continue
     object = json.loads(response.text)
-    with open(f'../Data/{resource_id}.json', 'w') as f:
+    with open(f'../../Data/{resource_id}.json', 'w') as f:
         json.dump(object, f)
     sleep(1)
