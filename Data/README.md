@@ -17,12 +17,11 @@ Consumption:
 Waste:
 
 - [Open Data](./waste_undifferentiated.csv): <https://dati.trentino.it/dataset/raccolta-indifferenziata-di-rifiuti-urbani2>
-- [Open Data](./waste_differentiated_2019.csv): <https://dati.trentino.it/dataset/raccolta-differenziata-di-rifiuti-urbani2/>
-- [Open Data 2011-2019](): <https://dati.trentino.it/dataset/servizio-di-raccolta-differenziata-dei-rifiuti-urbani/>
+- [Open Data](./waste_differentiated.csv): <https://dati.trentino.it/dataset/raccolta-differenziata-di-rifiuti-urbani2/>
 
 Air Quality:
 
-- [Open Data](): <https://dati.trentino.it/dataset/qualita-dellaria-urbana> [NOT LOADING]
+- [Open Data](./air_quality.csv): <https://dati.trentino.it/dataset/qualita-dellaria-urbana> [NOT LOADING]
 
 Demographic:
 
