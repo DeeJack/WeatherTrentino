@@ -1,0 +1,642 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://owl.man.ac.uk/2006/07/sssw/people#"
+     xml:base="http://owl.man.ac.uk/2006/07/sssw/people"
+     xmlns:ns0="http://owl.man.ac.uk/2006/07/sssw/people#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://owl.man.ac.uk/2006/07/sssw/people"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#drives -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#drives">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>drives</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#eaten_by -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#eaten_by">
+        <owl:inverseOf rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#eats"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>eaten_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#eats -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#eats">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>eats</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#has_child -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#has_child">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>has_child</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#has_father -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#has_father">
+        <rdfs:subPropertyOf rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#has_parent"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>has_father</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#has_mother -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#has_mother">
+        <rdfs:subPropertyOf rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#has_parent"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>has_mother</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#has_parent -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#has_parent">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>has_parent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#has_part -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#has_part">
+        <owl:inverseOf rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#part_of"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>has_part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#has_pet -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#has_pet">
+        <rdfs:subPropertyOf rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#likes"/>
+        <owl:inverseOf rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#is_pet_of"/>
+        <rdfs:comment>Anyone that has a pet must like that pet.</rdfs:comment>
+        <rdfs:label>has_pet</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#is_pet_of -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#is_pet_of">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>is_pet_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#likes -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#likes">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>likes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#part_of">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>part_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#reads -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#reads">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>reads</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#works_for -->
+
+    <owl:ObjectProperty rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#works_for">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>works_for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Weather_station -->
+
+    <owl:Class rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Weather_station"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#Altitude -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#Altitude"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#Humidity -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#Humidity"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#Latitude -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#Latitude"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#Location -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#Location"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#Longitude -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#Longitude"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#Pollutant -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#Pollutant"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#Rainfall -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#Rainfall"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#Snowfall -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#Snowfall"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#Waste -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#Waste"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#air_quality -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#air_quality"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#demographic_density -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#demographic_density"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#differentiated_waste -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#differentiated_waste"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#location_type -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#location_type"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#o3 -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#o3"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#pm10 -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#pm10"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#pm25 -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#pm25"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#power_consumption -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#power_consumption"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#rain_mm -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#rain_mm"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#so2 -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#so2"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#station_type -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#station_type"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#temperature_avg -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#temperature_avg"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#temperature_max -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#temperature_max"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#temperature_min -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#temperature_min"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#undifferentiated_waste -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#undifferentiated_waste"/>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#visibility_avg -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#visibility_avg">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://ukc.datascientia.eu/concept#wind_avg -->
+
+    <owl:Class rdf:about="https://ukc.datascientia.eu/concept#wind_avg"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Daily_Mirror -->
+
+    <owl:Thing rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Daily_Mirror">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:comment>The paper read by Mick.</rdfs:comment>
+        <rdfs:label>Daily Mirror</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Dewey -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Dewey">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Dewey</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Fido -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Fido">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Fido</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Flossie -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Flossie">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Flossie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Fluffy -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Fluffy">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Fluffy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Fred -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Fred">
+        <has_pet rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#Tibbs"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Fred</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Huey -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Huey">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Huey</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Joe -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Joe">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#has_pet"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <has_pet rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#Fido"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Joe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Kevin -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Kevin">
+        <has_pet rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#Flossie"/>
+        <has_pet rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#Fluffy"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Kevin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Louie -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Louie">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Louie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Mick -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Mick">
+        <drives rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#Q123_ABC"/>
+        <reads rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#Daily_Mirror"/>
+        <rdfs:comment>Mick is male and drives a white van. </rdfs:comment>
+        <rdfs:label>Mick</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Minnie -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Minnie">
+        <has_pet rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#Tom"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Minnie</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Pete -->
+
+    <owl:Thing rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Pete">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Pete</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Q123_ABC -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Q123_ABC">
+        <rdfs:comment>A white van</rdfs:comment>
+        <rdfs:label>Q123 ABC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Rex -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Rex">
+        <is_pet_of rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#Mick"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Rex</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Spike -->
+
+    <owl:Thing rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Spike">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <is_pet_of rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#Pete"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Spike</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#The_Guardian -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#The_Guardian">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>The Guardian</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#The_Sun -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#The_Sun">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>The Sun</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#The_Times -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#The_Times">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>The Times</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Tibbs -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Tibbs">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Tibbs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Tom -->
+
+    <owl:Thing rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Tom">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Tom</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://owl.man.ac.uk/2006/07/sssw/people#Walt -->
+
+    <owl:NamedIndividual rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Walt">
+        <has_pet rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#Dewey"/>
+        <has_pet rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#Huey"/>
+        <has_pet rdf:resource="http://owl.man.ac.uk/2006/07/sssw/people#Louie"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Walt</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Weather_station"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#Altitude"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#Humidity"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#Latitude"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#Location"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#Longitude"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#Pollutant"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#Rainfall"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#Snowfall"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#Waste"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#air_quality"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#demographic_density"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#differentiated_waste"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#location_type"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#o3"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#pm10"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#pm25"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#power_consumption"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#rain_mm"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#so2"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#station_type"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#temperature_avg"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#temperature_max"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#temperature_min"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#undifferentiated_waste"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#visibility_avg"/>
+            <rdf:Description rdf:about="https://ukc.datascientia.eu/concept#wind_avg"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Dewey"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Fido"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Flossie"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Fluffy"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Fred"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Huey"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Joe"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Kevin"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Louie"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Mick"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Minnie"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Q123_ABC"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Rex"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#The_Guardian"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#The_Sun"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#The_Times"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Tibbs"/>
+            <rdf:Description rdf:about="http://owl.man.ac.uk/2006/07/sssw/people#Walt"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
