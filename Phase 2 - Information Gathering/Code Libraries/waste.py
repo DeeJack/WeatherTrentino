@@ -20,7 +20,7 @@ merged_df = merged_df[[
 
 # Rename the columns to be more descriptive
 merged_df = merged_df.rename(columns={
-    '_id': 'ID', 'anno': 'Year', 'codEnte': 'Waste Comapny Code', 'valsore': 'Value'
+    '_id': 'ID', 'anno': 'Year', 'codEnte': 'Waste Comapny Code', 'valore': 'Value'
 })
 
 # Save the merged data to a new file
