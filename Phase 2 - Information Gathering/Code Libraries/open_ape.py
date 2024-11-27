@@ -22,11 +22,11 @@ merged_df = merged_df[[
 
 # Rename the columns to be more descriptive
 merged_df = merged_df.rename(columns={
-    'Denominazione in italiano': 'Comune', 'Codice Comune formato numerico': 'Codice ISTAT', 'c_cat': 'Codice Catastale',
-    'anno_costruzione': 'Anno Costruzione', 'zona_climatica': 'Zona Climatica',
-    'energia_invernale': 'Energia Invernale', 'energia_sanitaria': 'Energia Sanitaria',
-    'energia_globale_ubicazione': 'Energia Globale Ubicazione', 'epglnren': 'Prestazione Energetica Globale Non Rinnovabile',
-    'epglren': 'Prestazione Energetica Globale Rinnovabile', 'gradi_giorno': 'Gradi Giorno', 'emissioneco2': 'Emissione CO2',
+    'Denominazione in italiano': 'Municipality', 'Codice Comune formato numerico': 'ISTAT Code', 'c_cat': 'Cadastral Code',
+    'anno_costruzione': 'Year of Construction', 'zona_climatica': 'Climate Zone',
+    'energia_invernale': 'Winter Energy', 'energia_sanitaria': 'Sanitary Energy',
+    'energia_globale_ubicazione': 'Global Energy Location', 'epglnren': 'Non-Renewable Global Energy Performance',
+    'epglren': 'Renewable Global Energy Performance', 'gradi_giorno': 'Degree Days', 'emissioneco2': 'CO2 Emission',
 })
 
 # Save the merged data to a new file
