@@ -1,18 +1,28 @@
-ConcetID,Word-en,Gloss-en,Word-Other language,Gloss-Other Language
+ConceptID,Word-en,Gloss-en,Word-Other language,Gloss-Other Language
 KGE2024-1-0001,pm10,Particulate matter with a diameter of 10 micrometers or less.,particolato_pm10,Particolato con un diametro di 10 micrometri o inferiore.
 KGE2024-1-0002,pm25,Particulate matter with a diameter of 2.5 micrometers or less.,particolato_pm25,"Particolato con un diametro di 2,5 micrometri o inferiore."
-KGE2024-1-0003,so2,"Sulfur dioxide, a gas produced by volcanic activity and industrial processes.",biossido_di_zolfo,"Biossido di zolfo, un gas prodotto dall'attivit‡ vulcanica e dai processi industriali."
 KGE2024-1-0004,o3,"Ozone, a gas found in the Earth's atmosphere, important for blocking ultraviolet radiation but harmful at ground level.",ozono,"Ozono, un gas presente nell'atmosfera terrestre, importante per bloccare le radiazioni ultraviolette ma dannoso al livello del suolo."
-KGE2024-1-0005,air_quality,A measure of the cleanliness or pollution level of the air.,qualit‡_dell'aria,Una misura della pulizia o del livello di inquinamento dell'aria.
+KGE2024-1-0005,air_quality,A measure of the cleanliness or pollution level of the air.,qualit√†_dell'aria,Una misura della pulizia o del livello di inquinamento dell'aria.
 KGE2024-1-0006,temperature_avg,The average temperature recorded over a specific period.,temperatura_media,La temperatura media registrata in un determinato periodo.
 KGE2024-1-0007,temperature_min,The minimum temperature recorded over a specific period.,temperatura_minima,La temperatura minima registrata in un determinato periodo.
 KGE2024-1-0008,temperature_max,The maximum temperature recorded over a specific period.,temperatura_massima,La temperatura massima registrata in un determinato periodo.
 KGE2024-1-0009,rain_mm,The total rainfall measured in millimeters.,pioggia_mm,La pioggia totale misurata in millimetri.
-KGE2024-1-0010,visibility_avg,"The average distance over which objects can be seen, indicating atmospheric clarity.",visibilit‡_media,"La distanza media alla quale gli oggetti possono essere visti, indicativa della chiarezza atmosferica."
-KGE2024-1-0011,wind_avg,The average wind speed measured over a specific period.,vento_medio,La velocit‡ media del vento misurata in un determinato periodo.
+KGE2024-1-0010,visibility_avg,"The average distance over which objects can be seen, indicating atmospheric clarity.",visibilit√†_media,"La distanza media alla quale gli oggetti possono essere visti, indicativa della chiarezza atmosferica."
+KGE2024-1-0011,wind_avg,The average wind speed measured over a specific period.,vento_medio,La velocit√† media del vento misurata in un determinato periodo.
 KGE2024-1-0012,differentiated_waste,Waste that has been sorted for recycling or specific disposal processes.,rifiuti_differenziati,Rifiuti che sono stati separati per il riciclaggio o per specifici processi di smaltimento.
 KGE2024-1-0013,undifferentiated_waste,Waste that has not been sorted and is disposed of as general refuse.,rifiuti_indifferenziati,Rifiuti che non sono stati separati e vengono smaltiti come rifiuti generici.
-KGE2024-1-0014,power_consumption,The total amount of electricity used by a specific location or population.,consumo_energetico,La quantit‡ totale di energia elettrica utilizzata da una specifica localit‡ o popolazione.
-KGE2024-1-0015,demographic_density,The number of people living per unit area of a region.,densit‡_demografica,Il numero di persone che vivono per unit‡ di area in una regione.
-KGE2024-1-0016,location_type,"The classification of a location (e.g., urban, rural, industrial).",tipo_di_localit‡,"La classificazione di una localit‡ (ad es., urbana, rurale, industriale)."
-KGE2024-1-0017,station_type,"The type of weather or monitoring station, categorized by its purpose or data collection capabilities.",tipo_di_stazione,"Il tipo di stazione meteorologica o di monitoraggio, classificata in base al suo scopo o alle sue capacit‡ di raccolta dati."
+KGE2024-1-0014,power_consumption,The total amount of electricity used by a specific location or population.,consumo_energetico,La quantit√† totale di energia elettrica utilizzata da una specifica localit√† o popolazione.
+KGE2024-1-0015,demographic_density,The number of people living per unit area of a region.,densit√†_demografica,Il numero di persone che vivono per unit√† di area in una regione.
+KGE2024-1-0016,location_type,"The classification of a location (e.g., urban, rural, industrial).",tipo_di_localit√†,"La classificazione di una localit√† (ad es., urbana, rurale, industriale)."
+KGE2024-1-0017,station_type,"The type of weather or monitoring station, categorized by its purpose or data collection capabilities.",tipo_di_stazione,"Il tipo di stazione meteorologica o di monitoraggio, classificata in base al suo scopo o alle sue capacit√† di raccolta dati."
+45443,"weather station,weather_station",One of a networks of observation posts where meteorological data is recorded,,
+71312,pollutant,Waste matter that contaminates the water or air or soil,,
+72513,sulfur dioxide,A colorless toxic gas (SO2) that occurs in the gases from volcanoes; used in many manufacturing processes and present in industrial emissions; causes acid rain,,
+50,location,A point or extent in space,,
+45423,latitude,The angular distance between an imaginary line around a heavenly body parallel to its equator and the equator itself,,
+45429,longitude,The angular distance between a point on any meridian and the prime meridian at Greenwich,,
+27800,altitude,Elevation especially above sea level or above the earth's surface,,
+54345,rainfall,Water falling in drops from vapor condensed in the atmosphere,,
+54384,snowfall,Precipitation falling from clouds in the form of ice crystals,,
+69579,humidity,Wetness in the atmosphere,,
+45537,municipality,An urban district having corporate status and powers of self-government,,
