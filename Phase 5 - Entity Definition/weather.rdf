@@ -114,6 +114,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_cod_ente -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_cod_ente">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_consumption_id -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_consumption_id">
@@ -384,6 +394,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_undifferentiated -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_undifferentiated">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_value -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_value">
@@ -430,6 +450,16 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_year">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 

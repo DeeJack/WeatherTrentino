@@ -1,0 +1,547 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1iim872gex1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "waste.csv" ;
+	km-dev:modelPublicationTime "1738061089294"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"id\"}],[{\"columnName\":\"year\"}],[{\"columnName\":\"codEnte\"}],[{\"columnName\":\"differentiated\"}],[{\"columnName\":\"undifferentiated\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"total\"}],[{\"columnName\":\"id\"}],[{\"columnName\":\"year\"}],[{\"columnName\":\"codEnte\"}],[{\"columnName\":\"differentiated\"}],[{\"columnName\":\"undifferentiated\"}]]" ;
+	km-dev:hasModelLabel "waste.csv" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"undifferentiated\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"total\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return str(float(getValue(\\\"differentiated\\\")) + float(getValue(\\\"undifferentiated\\\")))\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"differentiated\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"undifferentiated\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"total\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-1031\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_waste_id\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103/Waste_GID-1031 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"year\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-1031\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_year\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103/Waste_GID-1031\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"year\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"year\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"codEnte\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-1031\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_cod_ente\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103/Waste_GID-1031\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"codEnte\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"codEnte\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"differentiated\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-1031\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_differentiated\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-1031\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"differentiated\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"differentiated\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"undifferentiated\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-1031\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_undifferentiated\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-1031\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"undifferentiated\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"undifferentiated\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"total\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-1031\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_total\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103/Waste_GID-1031\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"total\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"total\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_05baf025-fd1f-4597-8b1e-0f542b4c10ac a rr:TriplesMap .
+
+_:node1iim872gex1 km-dev:hasTriplesMap km-dev:TriplesMap_05baf025-fd1f-4597-8b1e-0f542b4c10ac .
+
+km-dev:TriplesMap_05baf025-fd1f-4597-8b1e-0f542b4c10ac km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex2 rr:tableName "waste.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex1 km-dev:hasLogicalTable _:node1iim872gex2 .
+
+km-dev:TriplesMap_05baf025-fd1f-4597-8b1e-0f542b4c10ac rr:logicalTable _:node1iim872gex2 ;
+	rr:subjectMap _:node1iim872gex3 .
+
+_:node1iim872gex1 km-dev:hasSubjectMap _:node1iim872gex3 .
+
+_:node1iim872gex3 km-dev:isPartOfMapping _:node1iim872gex1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-1031" ;
+	rr:class <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Waste_GID-103> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Waste_GID-1031" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_a611ef02-fa90-4fb9-a056-b19c45569ac9 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_cod_ente> .
+
+_:node1iim872gex4 rr:column "codEnte" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex1 km-dev:hasObjectMap _:node1iim872gex4 .
+
+km-dev:PredicateObjectMap_a611ef02-fa90-4fb9-a056-b19c45569ac9 rr:objectMap _:node1iim872gex4 .
+
+km-dev:TriplesMap_05baf025-fd1f-4597-8b1e-0f542b4c10ac rr:predicateObjectMap km-dev:PredicateObjectMap_a611ef02-fa90-4fb9-a056-b19c45569ac9 .
+
+km-dev:PredicateObjectMap_a611ef02-fa90-4fb9-a056-b19c45569ac9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a611ef02-fa90-4fb9-a056-b19c45569ac9 .
+
+km-dev:PredicateObjectMap_60afc54b-e2a2-40a1-9d16-8dca1cd7cb45 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_differentiated> .
+
+_:node1iim872gex5 rr:column "differentiated" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex1 km-dev:hasObjectMap _:node1iim872gex5 .
+
+km-dev:PredicateObjectMap_60afc54b-e2a2-40a1-9d16-8dca1cd7cb45 rr:objectMap _:node1iim872gex5 .
+
+km-dev:TriplesMap_05baf025-fd1f-4597-8b1e-0f542b4c10ac rr:predicateObjectMap km-dev:PredicateObjectMap_60afc54b-e2a2-40a1-9d16-8dca1cd7cb45 .
+
+km-dev:PredicateObjectMap_60afc54b-e2a2-40a1-9d16-8dca1cd7cb45 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_60afc54b-e2a2-40a1-9d16-8dca1cd7cb45 .
+
+km-dev:PredicateObjectMap_6efb0d41-6006-4bd7-9728-098f4de97ece rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_undifferentiated> .
+
+_:node1iim872gex6 rr:column "undifferentiated" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex1 km-dev:hasObjectMap _:node1iim872gex6 .
+
+km-dev:PredicateObjectMap_6efb0d41-6006-4bd7-9728-098f4de97ece rr:objectMap _:node1iim872gex6 .
+
+km-dev:TriplesMap_05baf025-fd1f-4597-8b1e-0f542b4c10ac rr:predicateObjectMap km-dev:PredicateObjectMap_6efb0d41-6006-4bd7-9728-098f4de97ece .
+
+km-dev:PredicateObjectMap_6efb0d41-6006-4bd7-9728-098f4de97ece a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6efb0d41-6006-4bd7-9728-098f4de97ece .
+
+km-dev:PredicateObjectMap_11ebb780-6164-4f28-8b1f-35ceb3b1e1ca rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_total> .
+
+_:node1iim872gex7 rr:column "total" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex1 km-dev:hasObjectMap _:node1iim872gex7 .
+
+km-dev:PredicateObjectMap_11ebb780-6164-4f28-8b1f-35ceb3b1e1ca rr:objectMap _:node1iim872gex7 .
+
+km-dev:TriplesMap_05baf025-fd1f-4597-8b1e-0f542b4c10ac rr:predicateObjectMap km-dev:PredicateObjectMap_11ebb780-6164-4f28-8b1f-35ceb3b1e1ca .
+
+km-dev:PredicateObjectMap_11ebb780-6164-4f28-8b1f-35ceb3b1e1ca a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_11ebb780-6164-4f28-8b1f-35ceb3b1e1ca .
+
+km-dev:PredicateObjectMap_de443984-d3de-4ead-af93-39bf98c2fda3 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_waste_id> .
+
+_:node1iim872gex8 rr:column "id" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex1 km-dev:hasObjectMap _:node1iim872gex8 .
+
+km-dev:PredicateObjectMap_de443984-d3de-4ead-af93-39bf98c2fda3 rr:objectMap _:node1iim872gex8 .
+
+km-dev:TriplesMap_05baf025-fd1f-4597-8b1e-0f542b4c10ac rr:predicateObjectMap km-dev:PredicateObjectMap_de443984-d3de-4ead-af93-39bf98c2fda3 .
+
+km-dev:PredicateObjectMap_de443984-d3de-4ead-af93-39bf98c2fda3 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_de443984-d3de-4ead-af93-39bf98c2fda3 .
+
+km-dev:PredicateObjectMap_49fc9f69-b117-4e55-8c0c-8dac58070e5c rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_year> .
+
+_:node1iim872gex9 rr:column "year" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex1 km-dev:hasObjectMap _:node1iim872gex9 .
+
+km-dev:PredicateObjectMap_49fc9f69-b117-4e55-8c0c-8dac58070e5c rr:objectMap _:node1iim872gex9 .
+
+km-dev:TriplesMap_05baf025-fd1f-4597-8b1e-0f542b4c10ac rr:predicateObjectMap km-dev:PredicateObjectMap_49fc9f69-b117-4e55-8c0c-8dac58070e5c .
+
+km-dev:PredicateObjectMap_49fc9f69-b117-4e55-8c0c-8dac58070e5c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iim872gex1 .
+
+_:node1iim872gex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_49fc9f69-b117-4e55-8c0c-8dac58070e5c .
