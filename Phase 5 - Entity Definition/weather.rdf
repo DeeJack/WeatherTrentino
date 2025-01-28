@@ -94,11 +94,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_cadastral -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_cadastral">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_climate_zone -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_climate_zone">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -108,7 +118,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_co2_emission">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
@@ -148,7 +158,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_degrees">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
@@ -188,7 +198,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_global_energy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
@@ -218,7 +228,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_istat_code">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
@@ -248,7 +258,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_municipality">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -268,7 +278,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_non_renewable_perf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
@@ -324,11 +334,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_renewable -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_renewable">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_sanitary_energy -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_sanitary_energy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
@@ -468,7 +488,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_winter_energy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
@@ -488,7 +508,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_year_of_construct">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
