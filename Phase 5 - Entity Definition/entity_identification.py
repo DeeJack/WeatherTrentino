@@ -7,7 +7,7 @@ def open_ape(ape_file, output_path):
         header = "id," + lines[0]
         output += header
         for line in lines[1:]:
-            output += str(count) + ',' + line + "\n"
+            output += str(count) + ',' + line
             count += 1
     
     with open(output_path, 'w', encoding="UTF-8") as output_file:
