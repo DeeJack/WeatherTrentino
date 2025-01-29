@@ -1,0 +1,370 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1iip66s44x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "trentino_demographic.csv" ;
+	km-dev:modelPublicationTime "1738159648901"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"demographic\"}],[{\"columnName\":\"year\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"URI\"}],[{\"columnName\":\"demographic\"}],[{\"columnName\":\"year\"}]]" ;
+	km-dev:hasModelLabel "trentino_demographic.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"year\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"URI\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return getValue(\\\"year\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"year\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"URI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"OrganizeColumnsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"type\": \"orderedColumns\",
+                \"value\": [
+                    {
+                        \"visible\": true,
+                        \"name\": \"URI\",
+                        \"id\": [{\"columnName\": \"URI\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"year\",
+                        \"id\": [{\"columnName\": \"year\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"demographic\",
+                        \"id\": [{\"columnName\": \"demographic\"}]
+                    }
+                ]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [
+            \"Transformation\",
+            \"IgnoreInBatch\"
+        ]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"year\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-1081\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108/Demographic_GID-1081 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"year\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"year\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"demographic\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-1081\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108/Demographic_GID-1081\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"demographic\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"demographic\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"URI\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-1081\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-1081\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108/Demographic_GID-1081\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"URI\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"URI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_1bb54045-48d1-4b5d-8a13-2ab23e4794cd a rr:TriplesMap .
+
+_:node1iip66s44x1 km-dev:hasTriplesMap km-dev:TriplesMap_1bb54045-48d1-4b5d-8a13-2ab23e4794cd .
+
+km-dev:TriplesMap_1bb54045-48d1-4b5d-8a13-2ab23e4794cd km-dev:isPartOfMapping _:node1iip66s44x1 .
+
+_:node1iip66s44x2 rr:tableName "trentino_demographic.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1iip66s44x1 .
+
+_:node1iip66s44x1 km-dev:hasLogicalTable _:node1iip66s44x2 .
+
+km-dev:TriplesMap_1bb54045-48d1-4b5d-8a13-2ab23e4794cd rr:logicalTable _:node1iip66s44x2 ;
+	rr:subjectMap _:node1iip66s44x3 .
+
+_:node1iip66s44x1 km-dev:hasSubjectMap _:node1iip66s44x3 .
+
+_:node1iip66s44x3 km-dev:isPartOfMapping _:node1iip66s44x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-1081" ;
+	rr:class <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> ;
+	rr:template "{year}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_deb79098-ceea-4a05-8866-4f97caa201a8 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> .
+
+_:node1iip66s44x4 rr:column "demographic" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iip66s44x1 .
+
+_:node1iip66s44x1 km-dev:hasObjectMap _:node1iip66s44x4 .
+
+km-dev:PredicateObjectMap_deb79098-ceea-4a05-8866-4f97caa201a8 rr:objectMap _:node1iip66s44x4 .
+
+km-dev:TriplesMap_1bb54045-48d1-4b5d-8a13-2ab23e4794cd rr:predicateObjectMap km-dev:PredicateObjectMap_deb79098-ceea-4a05-8866-4f97caa201a8 .
+
+km-dev:PredicateObjectMap_deb79098-ceea-4a05-8866-4f97caa201a8 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iip66s44x1 .
+
+_:node1iip66s44x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_deb79098-ceea-4a05-8866-4f97caa201a8 .
+
+km-dev:PredicateObjectMap_566953c1-e3ab-463d-8a4d-ca95f1f92163 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> .
+
+_:node1iip66s44x5 rr:column "year" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iip66s44x1 .
+
+_:node1iip66s44x1 km-dev:hasObjectMap _:node1iip66s44x5 .
+
+km-dev:PredicateObjectMap_566953c1-e3ab-463d-8a4d-ca95f1f92163 rr:objectMap _:node1iip66s44x5 .
+
+km-dev:TriplesMap_1bb54045-48d1-4b5d-8a13-2ab23e4794cd rr:predicateObjectMap km-dev:PredicateObjectMap_566953c1-e3ab-463d-8a4d-ca95f1f92163 .
+
+km-dev:PredicateObjectMap_566953c1-e3ab-463d-8a4d-ca95f1f92163 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iip66s44x1 .
+
+_:node1iip66s44x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_566953c1-e3ab-463d-8a4d-ca95f1f92163 .
