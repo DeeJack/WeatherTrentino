@@ -1,0 +1,1030 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1iimgnbk9x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "open_ape_id.csv" ;
+	km-dev:modelPublicationTime "1738070011531"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"ISTAT Code\"}],[{\"columnName\":\"CO2 Emission\"}],[{\"columnName\":\"Year of Construction\"}],[{\"columnName\":\"Cadastral Code\"}],[{\"columnName\":\"Winter Energy\"}],[{\"columnName\":\"Climate Zone\"}],[{\"columnName\":\"Global Energy Location\"}],[{\"columnName\":\"Sanitary Energy\"}],[{\"columnName\":\"Renewable Global Energy Performance\"}],[{\"columnName\":\"Non-Renewable Global Energy Performance\"}],[{\"columnName\":\"Degree Days\"}],[{\"columnName\":\"Municipality\"}],[{\"columnName\":\"id\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"ISTAT Code\"}],[{\"columnName\":\"CO2 Emission\"}],[{\"columnName\":\"Year of Construction\"}],[{\"columnName\":\"Cadastral Code\"}],[{\"columnName\":\"Winter Energy\"}],[{\"columnName\":\"Climate Zone\"}],[{\"columnName\":\"Global Energy Location\"}],[{\"columnName\":\"Sanitary Energy\"}],[{\"columnName\":\"Renewable Global Energy Performance\"}],[{\"columnName\":\"Non-Renewable Global Energy Performance\"}],[{\"columnName\":\"Degree Days\"}],[{\"columnName\":\"Municipality\"}],[{\"columnName\":\"id\"}]]" ;
+	km-dev:hasModelLabel "open_ape_id.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_consumption_id\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102/ConsumptionData_GID-1021 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Municipality\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_municipality\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102/ConsumptionData_GID-1021\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Municipality\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Municipality\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"ISTAT Code\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_istat_code\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102/ConsumptionData_GID-1021\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ISTAT Code\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ISTAT Code\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Cadastral Code\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_cadastral\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102/ConsumptionData_GID-1021\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Cadastral Code\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Cadastral Code\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Year of Construction\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_year_of_construct\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102/ConsumptionData_GID-1021\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Year of Construction\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Year of Construction\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Climate Zone\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_climate_zone\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102/ConsumptionData_GID-1021\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Climate Zone\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Climate Zone\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Winter Energy\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_winter_energy\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102/ConsumptionData_GID-1021\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Winter Energy\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Winter Energy\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Sanitary Energy\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_sanitary_energy\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102/ConsumptionData_GID-1021\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Sanitary Energy\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Sanitary Energy\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Global Energy Location\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_global_energy\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102/ConsumptionData_GID-1021\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Global Energy Location\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Global Energy Location\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Non-Renewable Global Energy Performance\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_non_renewable_perf\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102/ConsumptionData_GID-1021\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Non-Renewable Global Energy Performance\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Non-Renewable Global Energy Performance\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Renewable Global Energy Performance\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_renewable\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102/ConsumptionData_GID-1021\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Renewable Global Energy Performance\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Renewable Global Energy Performance\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Degree Days\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_degrees\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102/ConsumptionData_GID-1021\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Degree Days\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Degree Days\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"CO2 Emission\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_co2_emission\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102/ConsumptionData_GID-1021\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"CO2 Emission\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"CO2 Emission\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 a rr:TriplesMap .
+
+_:node1iimgnbk9x1 km-dev:hasTriplesMap km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x2 rr:tableName "open_ape_id.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasLogicalTable _:node1iimgnbk9x2 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:logicalTable _:node1iimgnbk9x2 ;
+	rr:subjectMap _:node1iimgnbk9x3 .
+
+_:node1iimgnbk9x1 km-dev:hasSubjectMap _:node1iimgnbk9x3 .
+
+_:node1iimgnbk9x3 km-dev:isPartOfMapping _:node1iimgnbk9x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-1021" ;
+	rr:class <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ConsumptionData_GID-102> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "ConsumptionData_GID-1021" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_2ff81c2a-8688-45dd-8e77-3dded6d5ca7d rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_istat_code> .
+
+_:node1iimgnbk9x4 rr:column "ISTAT Code" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasObjectMap _:node1iimgnbk9x4 .
+
+km-dev:PredicateObjectMap_2ff81c2a-8688-45dd-8e77-3dded6d5ca7d rr:objectMap _:node1iimgnbk9x4 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:predicateObjectMap km-dev:PredicateObjectMap_2ff81c2a-8688-45dd-8e77-3dded6d5ca7d .
+
+km-dev:PredicateObjectMap_2ff81c2a-8688-45dd-8e77-3dded6d5ca7d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2ff81c2a-8688-45dd-8e77-3dded6d5ca7d .
+
+km-dev:PredicateObjectMap_5a0f5839-83bd-45c2-9017-f5e6242779cd rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_co2_emission> .
+
+_:node1iimgnbk9x5 rr:column "CO2 Emission" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasObjectMap _:node1iimgnbk9x5 .
+
+km-dev:PredicateObjectMap_5a0f5839-83bd-45c2-9017-f5e6242779cd rr:objectMap _:node1iimgnbk9x5 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:predicateObjectMap km-dev:PredicateObjectMap_5a0f5839-83bd-45c2-9017-f5e6242779cd .
+
+km-dev:PredicateObjectMap_5a0f5839-83bd-45c2-9017-f5e6242779cd a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5a0f5839-83bd-45c2-9017-f5e6242779cd .
+
+km-dev:PredicateObjectMap_8c392beb-1f9b-47f7-96a3-7b54f5e565e6 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_year_of_construct> .
+
+_:node1iimgnbk9x6 rr:column "Year of Construction" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasObjectMap _:node1iimgnbk9x6 .
+
+km-dev:PredicateObjectMap_8c392beb-1f9b-47f7-96a3-7b54f5e565e6 rr:objectMap _:node1iimgnbk9x6 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:predicateObjectMap km-dev:PredicateObjectMap_8c392beb-1f9b-47f7-96a3-7b54f5e565e6 .
+
+km-dev:PredicateObjectMap_8c392beb-1f9b-47f7-96a3-7b54f5e565e6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8c392beb-1f9b-47f7-96a3-7b54f5e565e6 .
+
+km-dev:PredicateObjectMap_be266176-6884-44e3-ae58-aa12a02e4be9 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_cadastral> .
+
+_:node1iimgnbk9x7 rr:column "Cadastral Code" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasObjectMap _:node1iimgnbk9x7 .
+
+km-dev:PredicateObjectMap_be266176-6884-44e3-ae58-aa12a02e4be9 rr:objectMap _:node1iimgnbk9x7 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:predicateObjectMap km-dev:PredicateObjectMap_be266176-6884-44e3-ae58-aa12a02e4be9 .
+
+km-dev:PredicateObjectMap_be266176-6884-44e3-ae58-aa12a02e4be9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_be266176-6884-44e3-ae58-aa12a02e4be9 .
+
+km-dev:PredicateObjectMap_68bf0099-fa43-4554-abf8-f74c595ffbfb rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_winter_energy> .
+
+_:node1iimgnbk9x8 rr:column "Winter Energy" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasObjectMap _:node1iimgnbk9x8 .
+
+km-dev:PredicateObjectMap_68bf0099-fa43-4554-abf8-f74c595ffbfb rr:objectMap _:node1iimgnbk9x8 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:predicateObjectMap km-dev:PredicateObjectMap_68bf0099-fa43-4554-abf8-f74c595ffbfb .
+
+km-dev:PredicateObjectMap_68bf0099-fa43-4554-abf8-f74c595ffbfb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_68bf0099-fa43-4554-abf8-f74c595ffbfb .
+
+km-dev:PredicateObjectMap_8442f7e5-38ee-4ce9-a568-08bf0d7694d2 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_climate_zone> .
+
+_:node1iimgnbk9x9 rr:column "Climate Zone" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasObjectMap _:node1iimgnbk9x9 .
+
+km-dev:PredicateObjectMap_8442f7e5-38ee-4ce9-a568-08bf0d7694d2 rr:objectMap _:node1iimgnbk9x9 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:predicateObjectMap km-dev:PredicateObjectMap_8442f7e5-38ee-4ce9-a568-08bf0d7694d2 .
+
+km-dev:PredicateObjectMap_8442f7e5-38ee-4ce9-a568-08bf0d7694d2 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8442f7e5-38ee-4ce9-a568-08bf0d7694d2 .
+
+km-dev:PredicateObjectMap_11665510-8ddc-433b-9850-4c084c49f2e1 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_global_energy> .
+
+_:node1iimgnbk9x10 rr:column "Global Energy Location" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasObjectMap _:node1iimgnbk9x10 .
+
+km-dev:PredicateObjectMap_11665510-8ddc-433b-9850-4c084c49f2e1 rr:objectMap _:node1iimgnbk9x10 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:predicateObjectMap km-dev:PredicateObjectMap_11665510-8ddc-433b-9850-4c084c49f2e1 .
+
+km-dev:PredicateObjectMap_11665510-8ddc-433b-9850-4c084c49f2e1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_11665510-8ddc-433b-9850-4c084c49f2e1 .
+
+km-dev:PredicateObjectMap_af246104-39f7-4206-a170-16354c4ebd18 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_sanitary_energy> .
+
+_:node1iimgnbk9x11 rr:column "Sanitary Energy" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasObjectMap _:node1iimgnbk9x11 .
+
+km-dev:PredicateObjectMap_af246104-39f7-4206-a170-16354c4ebd18 rr:objectMap _:node1iimgnbk9x11 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:predicateObjectMap km-dev:PredicateObjectMap_af246104-39f7-4206-a170-16354c4ebd18 .
+
+km-dev:PredicateObjectMap_af246104-39f7-4206-a170-16354c4ebd18 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_af246104-39f7-4206-a170-16354c4ebd18 .
+
+km-dev:PredicateObjectMap_d9f89d5b-d266-4ce7-aab5-9a5aff448ca1 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_renewable> .
+
+_:node1iimgnbk9x12 rr:column "Renewable Global Energy Performance" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasObjectMap _:node1iimgnbk9x12 .
+
+km-dev:PredicateObjectMap_d9f89d5b-d266-4ce7-aab5-9a5aff448ca1 rr:objectMap _:node1iimgnbk9x12 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:predicateObjectMap km-dev:PredicateObjectMap_d9f89d5b-d266-4ce7-aab5-9a5aff448ca1 .
+
+km-dev:PredicateObjectMap_d9f89d5b-d266-4ce7-aab5-9a5aff448ca1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d9f89d5b-d266-4ce7-aab5-9a5aff448ca1 .
+
+km-dev:PredicateObjectMap_aa5f2791-cf94-4171-b4bc-96d43ae5a690 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_non_renewable_perf> .
+
+_:node1iimgnbk9x13 rr:column "Non-Renewable Global Energy Performance" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasObjectMap _:node1iimgnbk9x13 .
+
+km-dev:PredicateObjectMap_aa5f2791-cf94-4171-b4bc-96d43ae5a690 rr:objectMap _:node1iimgnbk9x13 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:predicateObjectMap km-dev:PredicateObjectMap_aa5f2791-cf94-4171-b4bc-96d43ae5a690 .
+
+km-dev:PredicateObjectMap_aa5f2791-cf94-4171-b4bc-96d43ae5a690 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_aa5f2791-cf94-4171-b4bc-96d43ae5a690 .
+
+km-dev:PredicateObjectMap_a2c9211a-d501-43b5-8baa-76c5e420601d rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_degrees> .
+
+_:node1iimgnbk9x14 rr:column "Degree Days" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasObjectMap _:node1iimgnbk9x14 .
+
+km-dev:PredicateObjectMap_a2c9211a-d501-43b5-8baa-76c5e420601d rr:objectMap _:node1iimgnbk9x14 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:predicateObjectMap km-dev:PredicateObjectMap_a2c9211a-d501-43b5-8baa-76c5e420601d .
+
+km-dev:PredicateObjectMap_a2c9211a-d501-43b5-8baa-76c5e420601d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a2c9211a-d501-43b5-8baa-76c5e420601d .
+
+km-dev:PredicateObjectMap_914a3bfd-0ddc-498c-ba28-4c2f946427d4 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_municipality> .
+
+_:node1iimgnbk9x15 rr:column "Municipality" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasObjectMap _:node1iimgnbk9x15 .
+
+km-dev:PredicateObjectMap_914a3bfd-0ddc-498c-ba28-4c2f946427d4 rr:objectMap _:node1iimgnbk9x15 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:predicateObjectMap km-dev:PredicateObjectMap_914a3bfd-0ddc-498c-ba28-4c2f946427d4 .
+
+km-dev:PredicateObjectMap_914a3bfd-0ddc-498c-ba28-4c2f946427d4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_914a3bfd-0ddc-498c-ba28-4c2f946427d4 .
+
+km-dev:PredicateObjectMap_d92d2a61-abc5-4668-b74e-31e3e5b8dfc6 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_consumption_id> .
+
+_:node1iimgnbk9x16 rr:column "id" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasObjectMap _:node1iimgnbk9x16 .
+
+km-dev:PredicateObjectMap_d92d2a61-abc5-4668-b74e-31e3e5b8dfc6 rr:objectMap _:node1iimgnbk9x16 .
+
+km-dev:TriplesMap_b6ab4915-bcd8-4dd8-8683-9c8fb4a8ff05 rr:predicateObjectMap km-dev:PredicateObjectMap_d92d2a61-abc5-4668-b74e-31e3e5b8dfc6 .
+
+km-dev:PredicateObjectMap_d92d2a61-abc5-4668-b74e-31e3e5b8dfc6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iimgnbk9x1 .
+
+_:node1iimgnbk9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d92d2a61-abc5-4668-b74e-31e3e5b8dfc6 .
