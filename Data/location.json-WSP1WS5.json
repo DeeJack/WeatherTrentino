@@ -1,0 +1,1766 @@
+[
+ {"id":"64776484","lat":"46.0664228","lon":"11.1257601","tags":   [
+    {"name":"Trento","place":"city","population":"117317"    }
+   ]
+ },
+ {"id":"64776488","lat":"46.0366992","lon":"10.8713344","tags":   [
+    {"name":"Ponte Arche","place":"village","population":"765"    }
+   ]
+ },
+ {"id":"64776492","lat":"46.0533463","lon":"11.4566004","tags":   [
+    {"name":"Borgo Valsugana","place":"town","population":"6945"    }
+   ]
+ },
+ {"id":"64776494","lat":"46.0018030","lon":"11.2231830","tags":   [
+    {"name":"Bosentino","place":"village","population":"728"    }
+   ]
+ },
+ {"id":"64776512","lat":"46.1563433","lon":"11.1525627","tags":   [
+    {"name":"Verla","place":"village","population":"788"    }
+   ]
+ },
+ {"id":"64776518","lat":"46.1442060","lon":"11.2195800","tags":   [
+    {"name":"Lases","place":"village","population":"539"    }
+   ]
+ },
+ {"id":"64776529","lat":"46.4148130","lon":"11.1777740","tags":   [
+    {"name":"Ruffré","place":"village","population":"336"    }
+   ]
+ },
+ {"id":"64776536","lat":"46.4426498","lon":"11.0165571","tags":   [
+    {"name":"Marcena","place":"village","population":"190"    }
+   ]
+ },
+ {"id":"64776541","lat":"46.1081377","lon":"11.3027058","tags":   [
+    {"name":"Sant'Orsola Terme","place":"village","population":"906"    }
+   ]
+ },
+ {"id":"64776544","lat":"46.2654118","lon":"11.0868217","tags":   [
+    {"name":"Vigo di Ton","place":"village","population":"585"    }
+   ]
+ },
+ {"id":"64776551","lat":"46.0444545","lon":"11.2776917","tags":   [
+    {"name":"Vignola","place":"village","population":"22"    }
+   ]
+ },
+ {"id":"64776554","lat":"46.2969050","lon":"10.6913650","tags":   [
+    {"name":"Vermiglio","place":"village","population":"1856"    }
+   ]
+ },
+ {"id":"64776555","lat":"46.1449060","lon":"11.1934790","tags":   [
+    {"name":"Albiano","place":"village","population":"1447"    }
+   ]
+ },
+ {"id":"64776561","lat":"46.0529769","lon":"11.5288071","tags":   [
+    {"name":"Agnedo","place":"village","population":""    }
+   ]
+ },
+ {"id":"64776563","lat":"46.1676984","lon":"11.3015887","tags":   [
+    {"name":"Bedollo","place":"village","population":"1397"    }
+   ]
+ },
+ {"id":"64776567","lat":"46.1302020","lon":"10.7574700","tags":   [
+    {"name":"Caderzone Terme","place":"village","population":"602"    }
+   ]
+ },
+ {"id":"64776574","lat":"46.3653890","lon":"10.9425799","tags":   [
+    {"name":"Caldes","place":"village","population":"1040"    }
+   ]
+ },
+ {"id":"64776576","lat":"45.9915227","lon":"11.2621326","tags":   [
+    {"name":"Caldonazzo","place":"village","population":"2766"    }
+   ]
+ },
+ {"id":"64776579","lat":"46.3943110","lon":"11.0411710","tags":   [
+    {"name":"Cagnò","place":"village","population":"333"    }
+   ]
+ },
+ {"id":"64776581","lat":"46.0467020","lon":"10.9850770","tags":   [
+    {"name":"Calavino","place":"village","population":"824"    }
+   ]
+ },
+ {"id":"64776584","lat":"46.1548460","lon":"11.7329554","tags":   [
+    {"name":"Canal San Bovo","place":"village","population":"1530"    }
+   ]
+ },
+ {"id":"64776586","lat":"46.4768809","lon":"11.7710748","tags":   [
+    {"name":"Canazei - Cianacei","place":"village","population":"1818"    }
+   ]
+ },
+ {"id":"64776588","lat":"46.4761678","lon":"11.7415253","tags":   [
+    {"name":"Campitello di Fassa - Ciampedel","place":"village","population":"732"    }
+   ]
+ },
+ {"id":"64776591","lat":"46.2578266","lon":"11.0331998","tags":   [
+    {"name":"Campodenno","place":"village","population":"1436"    }
+   ]
+ },
+ {"id":"64776593","lat":"46.0641754","lon":"11.6321708","tags":   [
+    {"name":"Castello Tesino","place":"village","population":"1442"    }
+   ]
+ },
+ {"id":"64776596","lat":"45.9143950","lon":"10.6027700","tags":   [
+    {"name":"Castel Condino","place":"village","population":"233"    }
+   ]
+ },
+ {"id":"64776599","lat":"46.1687756","lon":"10.7591591","tags":   [
+    {"name":"Carisolo","place":"village","population":"918"    }
+   ]
+ },
+ {"id":"64776600","lat":"46.2624689","lon":"11.3379292","tags":   [
+    {"name":"Capriana","place":"village","population":"582"    }
+   ]
+ },
+ {"id":"64776603","lat":"46.3508100","lon":"11.0887730","tags":   [
+    {"name":"Coredo","place":"village","population":"1544"    }
+   ]
+ },
+ {"id":"64776605","lat":"45.9118950","lon":"10.6128545","tags":   [
+    {"name":"Cimego","place":"village","population":"376"    }
+   ]
+ },
+ {"id":"64776608","lat":"46.4084120","lon":"11.1380730","tags":   [
+    {"name":"Cavareno","place":"village","population":"923"    }
+   ]
+ },
+ {"id":"64776611","lat":"46.2911870","lon":"11.4604681","tags":   [
+    {"name":"Cavalese","place":"village","population":"4100"    }
+   ]
+ },
+ {"id":"64776612","lat":"46.3516068","lon":"10.9128757","tags":   [
+    {"name":"Malé","place":"village","population":"2138"    }
+   ]
+ },
+ {"id":"64776615","lat":"46.1605669","lon":"11.1870325","tags":   [
+    {"name":"Lisignago","place":"village","population":"443"    }
+   ]
+ },
+ {"id":"64776617","lat":"46.3628864","lon":"10.6732435","tags":   [
+    {"name":"Peio","place":"village","population":"1843"    }
+   ]
+ },
+ {"id":"64776619","lat":"46.3447786","lon":"10.9034227","tags":   [
+    {"name":"Croviana","place":"village","population":"597"    }
+   ]
+ },
+ {"id":"64776620","lat":"46.1547120","lon":"11.8079930","tags":   [
+    {"name":"Mezzano","place":"village","population":"1638"    }
+   ]
+ },
+ {"id":"64776621","lat":"46.3173162","lon":"10.8010074","tags":   [
+    {"name":"Mezzana","place":"village","population":"875"    }
+   ]
+ },
+ {"id":"64776622","lat":"46.1417556","lon":"10.7731340","tags":   [
+    {"name":"Massimeno","place":"village","population":"105"    }
+   ]
+ },
+ {"id":"64776623","lat":"46.4368189","lon":"11.1433969","tags":   [
+    {"name":"Malosco","place":"village","population":"373"    }
+   ]
+ },
+ {"id":"64776627","lat":"46.0435692","lon":"11.5529585","tags":   [
+    {"name":"Ospedaletto","place":"village","population":"832"    }
+   ]
+ },
+ {"id":"64776629","lat":"46.3064533","lon":"10.7377007","tags":   [
+    {"name":"Ossana","place":"village","population":"765"    }
+   ]
+ },
+ {"id":"64776630","lat":"46.0621020","lon":"10.9888760","tags":   [
+    {"name":"Padergnone","place":"village","population":"714"    }
+   ]
+ },
+ {"id":"64776634","lat":"46.2856525","lon":"11.5425874","tags":   [
+    {"name":"Panchià","place":"village","population":"682"    }
+   ]
+ },
+ {"id":"64776635","lat":"46.2120936","lon":"11.0935086","tags":   [
+    {"name":"Mezzolombardo","place":"village","population":"7067"    }
+   ]
+ },
+ {"id":"64776637","lat":"46.3769434","lon":"11.6592663","tags":   [
+    {"name":"Moena","place":"village","population":"2602"    }
+   ]
+ },
+ {"id":"64776641","lat":"46.3144754","lon":"11.0480288","tags":   [
+    {"name":"Nanno","place":"village","population":"456"    }
+   ]
+ },
+ {"id":"64776644","lat":"46.3918110","lon":"11.0596720","tags":   [
+    {"name":"Revò","place":"village","population":"1115"    }
+   ]
+ },
+ {"id":"64776647","lat":"46.3939973","lon":"11.1202732","tags":   [
+    {"name":"Romeno","place":"village","population":"1243"    }
+   ]
+ },
+ {"id":"64776649","lat":"46.1929070","lon":"11.1335770","tags":   [
+    {"name":"San Michele all'Adige","place":"village","population":"3863"    }
+   ]
+ },
+ {"id":"64776653","lat":"46.4187281","lon":"11.1407924","tags":   [
+    {"name":"Sarnonico","place":"village","population":"662"    }
+   ]
+ },
+ {"id":"64776654","lat":"45.8897478","lon":"10.9502051","tags":   [
+    {"name":"Ronzo-Chienis","place":"village","population":"1010"    }
+   ]
+ },
+ {"id":"64776656","lat":"46.0885000","lon":"10.7238700","tags":   [
+    {"name":"Pelugo","place":"village","population":"351"    }
+   ]
+ },
+ {"id":"64776659","lat":"46.0605291","lon":"11.2406747","tags":   [
+    {"name":"Pergine Valsugana","place":"town","population":"21280"    }
+   ]
+ },
+ {"id":"64776660","lat":"46.0462049","lon":"10.7572114","tags":   [
+    {"name":"Preore","place":"village","population":"357"    }
+   ]
+ },
+ {"id":"64776663","lat":"46.2368070","lon":"11.0302740","tags":   [
+    {"name":"Sporminore","place":"village","population":"680"    }
+   ]
+ },
+ {"id":"64776666","lat":"46.2217090","lon":"11.3156810","tags":   [
+    {"name":"Sover","place":"village","population":"904"    }
+   ]
+ },
+ {"id":"64776667","lat":"46.0663040","lon":"11.5230655","tags":   [
+    {"name":"Strigno","place":"village","population":"1377"    }
+   ]
+ },
+ {"id":"64776672","lat":"46.3371552","lon":"11.1157568","tags":   [
+    {"name":"Sfruz","place":"village","population":"275"    }
+   ]
+ },
+ {"id":"64776677","lat":"46.3946069","lon":"11.6661676","tags":   [
+    {"name":"Soraga","place":"village","population":"673"    }
+   ]
+ },
+ {"id":"64776679","lat":"46.3431100","lon":"11.1097740","tags":   [
+    {"name":"Smarano","place":"village","population":"502"    }
+   ]
+ },
+ {"id":"64776680","lat":"46.1816875","lon":"11.8404899","tags":   [
+    {"name":"Tonadico","place":"village","population":"1223"    }
+   ]
+ },
+ {"id":"64776683","lat":"45.8883950","lon":"10.6694720","tags":   [
+    {"name":"Tiarno di Sopra","place":"village","population":"984"    }
+   ]
+ },
+ {"id":"64776685","lat":"46.3289090","lon":"11.0229720","tags":   [
+    {"name":"Tuenno","place":"village","population":"2349"    }
+   ]
+ },
+ {"id":"64776687","lat":"46.0743070","lon":"11.4497870","tags":   [
+    {"name":"Torcegno","place":"village","population":"679"    }
+   ]
+ },
+ {"id":"64776690","lat":"46.0157030","lon":"11.2642830","tags":   [
+    {"name":"Tenna","place":"village","population":"850"    }
+   ]
+ },
+ {"id":"64776692","lat":"46.3205899","lon":"11.0668144","tags":   [
+    {"name":"Taio","place":"village","population":"1306"    }
+   ]
+ },
+ {"id":"64776693","lat":"46.3616048","lon":"10.9260882","tags":   [
+    {"name":"Terzolas","place":"village","population":"558"    }
+   ]
+ },
+ {"id":"64776696","lat":"45.9187970","lon":"10.8327750","tags":   [
+    {"name":"Tenno","place":"village","population":"1735"    }
+   ]
+ },
+ {"id":"64776698","lat":"46.2865173","lon":"11.5659762","tags":   [
+    {"name":"Ziano di Fiemme","place":"village","population":"1550"    }
+   ]
+ },
+ {"id":"64776705","lat":"45.9171787","lon":"11.0608033","tags":   [
+    {"name":"Volano","place":"village","population":"2801"    }
+   ]
+ },
+ {"id":"64776707","lat":"46.3083925","lon":"11.1196013","tags":   [
+    {"name":"Vervò","place":"village","population":"416"    }
+   ]
+ },
+ {"id":"64776710","lat":"46.0787914","lon":"10.9994069","tags":   [
+    {"name":"Vezzano","place":"village","population":"1239"    }
+   ]
+ },
+ {"id":"64776712","lat":"46.3035575","lon":"11.4559989","tags":   [
+    {"name":"Varena","place":"village","population":"799"    }
+   ]
+ },
+ {"id":"64776715","lat":"45.9933668","lon":"11.2193060","tags":   [
+    {"name":"Vattaro","place":"village","population":"868"    }
+   ]
+ },
+ {"id":"64776723","lat":"46.3263191","lon":"10.8746528","tags":   [
+    {"name":"Dimaro","place":"village","population":"1196"    }
+   ]
+ },
+ {"id":"64776725","lat":"46.3009636","lon":"11.4474653","tags":   [
+    {"name":"Daiano","place":"village","population":"674"    }
+   ]
+ },
+ {"id":"64776728","lat":"46.4047120","lon":"11.0930720","tags":   [
+    {"name":"Dambel","place":"village","population":"424"    }
+   ]
+ },
+ {"id":"64776731","lat":"46.2864080","lon":"11.0345730","tags":   [
+    {"name":"Cunevo","place":"village","population":"568"    }
+   ]
+ },
+ {"id":"64776733","lat":"46.4230730","lon":"11.1488994","tags":   [
+    {"name":"Ronzone","place":"village","population":"352"    }
+   ]
+ },
+ {"id":"64776737","lat":"45.9835968","lon":"10.6709534","tags":   [
+    {"name":"Roncone","place":"village","population":"1352"    }
+   ]
+ },
+ {"id":"64776739","lat":"46.0684060","lon":"11.4351860","tags":   [
+    {"name":"Ronchi Valsugana","place":"village","population":"385"    }
+   ]
+ },
+ {"id":"64776742","lat":"46.0251010","lon":"10.9830770","tags":   [
+    {"name":"Lasino","place":"village","population":"688"    }
+   ]
+ },
+ {"id":"64776749","lat":"46.2208416","lon":"11.2940800","tags":   [
+    {"name":"Grumes","place":"village","population":"328"    }
+   ]
+ },
+ {"id":"64776752","lat":"45.7337930","lon":"10.9371810","tags":   [
+    {"name":"Avio","place":"village","population":"3918"    }
+   ]
+ },
+ {"id":"64776755","lat":"45.9181327","lon":"10.8860953","tags":   [
+    {"name":"Arco","place":"town","population":"17526"    }
+   ]
+ },
+ {"id":"64776757","lat":"46.1661363","lon":"11.0034020","tags":   [
+    {"name":"Andalo","place":"village","population":"1015"    }
+   ]
+ },
+ {"id":"64776761","lat":"46.3954120","lon":"11.1467740","tags":   [
+    {"name":"Amblar","place":"village","population":"204"    }
+   ]
+ },
+ {"id":"64776762","lat":"45.9767795","lon":"11.0908573","tags":   [
+    {"name":"Aldeno","place":"village","population":"2815"    }
+   ]
+ },
+ {"id":"64776767","lat":"46.0536000","lon":"10.7772720","tags":   [
+    {"name":"Ragoli","place":"village","population":"425"    }
+   ]
+ },
+ {"id":"64776768","lat":"46.2499881","lon":"11.1693479","tags":   [
+    {"name":"Roveré della Luna","place":"village","population":"1472"    }
+   ]
+ },
+ {"id":"64776770","lat":"46.0042410","lon":"11.2428830","tags":   [
+    {"name":"Calceranica al Lago","place":"village","population":"1145"    }
+   ]
+ },
+ {"id":"64776774","lat":"46.4309755","lon":"11.1082429","tags":   [
+    {"name":"Brez","place":"village","population":"473"    }
+   ]
+ },
+ {"id":"64776776","lat":"46.2917611","lon":"11.4396907","tags":   [
+    {"name":"Carano","place":"village","population":"821"    }
+   ]
+ },
+ {"id":"64776780","lat":"46.4557130","lon":"11.1167720","tags":   [
+    {"name":"Castelfondo","place":"village","population":"478"    }
+   ]
+ },
+ {"id":"64776781","lat":"46.0703249","lon":"11.4933434","tags":   [
+    {"name":"Carzano","place":"village","population":"499"    }
+   ]
+ },
+ {"id":"64776783","lat":"46.1846982","lon":"11.0314163","tags":   [
+    {"name":"Cavedago","place":"village","population":"455"    }
+   ]
+ },
+ {"id":"64776787","lat":"46.0528587","lon":"11.4932817","tags":   [
+    {"name":"Castelnuovo","place":"village","population":"896"    }
+   ]
+ },
+ {"id":"64776793","lat":"46.0806791","lon":"11.5540415","tags":   [
+    {"name":"Bieno","place":"village","population":"441"    }
+   ]
+ },
+ {"id":"64776795","lat":"45.8969363","lon":"10.7177233","tags":   [
+    {"name":"Bezzecca","place":"village","population":"610"    }
+   ]
+ },
+ {"id":"64776797","lat":"46.0002980","lon":"10.6919710","tags":   [
+    {"name":"Bondo","place":"village","population":"677"    }
+   ]
+ },
+ {"id":"64776800","lat":"46.1191034","lon":"10.7588619","tags":   [
+    {"name":"Bocenago","place":"village","population":"372"    }
+   ]
+ },
+ {"id":"64776803","lat":"45.8062305","lon":"10.5515367","tags":   [
+    {"name":"Bondone","place":"village","population":"667"    }
+   ]
+ },
+ {"id":"64776805","lat":"46.4189120","lon":"11.0868720","tags":   [
+    {"name":"Cloz","place":"village","population":"704"    }
+   ]
+ },
+ {"id":"64776807","lat":"45.8892835","lon":"10.6008367","tags":   [
+    {"name":"Condino","place":"village","population":"1492"    }
+   ]
+ },
+ {"id":"64776810","lat":"46.0752000","lon":"10.7180700","tags":   [
+    {"name":"Darè","place":"village","population":"242"    }
+   ]
+ },
+ {"id":"64776812","lat":"46.2750080","lon":"11.0490740","tags":   [
+    {"name":"Denno","place":"village","population":"1100"    }
+   ]
+ },
+ {"id":"64776814","lat":"46.3896623","lon":"11.1366070","tags":   [
+    {"name":"Don","place":"village","population":"248"    }
+   ]
+ },
+ {"id":"64776816","lat":"45.9692990","lon":"10.9444770","tags":   [
+    {"name":"Drena","place":"village","population":"584"    }
+   ]
+ },
+ {"id":"64776818","lat":"45.9614710","lon":"10.9111105","tags":   [
+    {"name":"Dro","place":"village","population":"3388"    }
+   ]
+ },
+ {"id":"64776820","lat":"46.1922976","lon":"11.1618628","tags":   [
+    {"name":"Faedo","place":"village","population":"216"    }
+   ]
+ },
+ {"id":"64776824","lat":"45.9952000","lon":"10.9735770","tags":   [
+    {"name":"Cavedine","place":"village","population":"2730"    }
+   ]
+ },
+ {"id":"64776826","lat":"46.3675013","lon":"10.9579230","tags":   [
+    {"name":"Cavizzana","place":"village","population":"226"    }
+   ]
+ },
+ {"id":"64776828","lat":"46.1744240","lon":"11.2205744","tags":   [
+    {"name":"Cembra","place":"village","population":"1802"    }
+   ]
+ },
+ {"id":"64776832","lat":"46.0567680","lon":"11.6148685","tags":   [
+    {"name":"Cinte Tesino","place":"village","population":"406"    }
+   ]
+ },
+ {"id":"64776834","lat":"46.3991870","lon":"11.0029605","tags":   [
+    {"name":"Cis","place":"village","population":"300"    }
+   ]
+ },
+ {"id":"64776836","lat":"46.0893670","lon":"11.1800260","tags":   [
+    {"name":"Civezzano","place":"village","population":"3113"    }
+   ]
+ },
+ {"id":"64776838","lat":"46.3652616","lon":"11.0332447","tags":   [
+    {"name":"Cles","place":"village","population":"6982"    }
+   ]
+ },
+ {"id":"64776843","lat":"46.3972110","lon":"11.0661720","tags":   [
+    {"name":"Romallo","place":"village","population":"591"    }
+   ]
+ },
+ {"id":"64776844","lat":"45.8847708","lon":"10.8396942","tags":   [
+    {"name":"Riva del Garda","place":"town","population":"16926"    }
+   ]
+ },
+ {"id":"64776848","lat":"46.1484401","lon":"10.7694794","tags":   [
+    {"name":"Giustino","place":"village","population":"694"    }
+   ]
+ },
+ {"id":"64776850","lat":"46.0644655","lon":"11.5059309","tags":   [
+    {"name":"Scurelle","place":"village","population":"1276"    }
+   ]
+ },
+ {"id":"64776852","lat":"46.3659309","lon":"11.0744593","tags":   [
+    {"name":"Sanzeno","place":"village","population":"339"    }
+   ]
+ },
+ {"id":"64776853","lat":"46.0766020","lon":"10.9084740","tags":   [
+    {"name":"San Lorenzo Dorsino","place":"village","population":"1588"    }
+   ]
+ },
+ {"id":"64776856","lat":"46.0816070","lon":"11.5225880","tags":   [
+    {"name":"Samone","place":"village","population":"494"    }
+   ]
+ },
+ {"id":"64776858","lat":"46.2994447","lon":"11.0304878","tags":   [
+    {"name":"Flavon","place":"village","population":"483"    }
+   ]
+ },
+ {"id":"64776860","lat":"46.1770769","lon":"11.8296060","tags":   [
+    {"name":"Fiera di Primiero","place":"village","population":"507"    }
+   ]
+ },
+ {"id":"64776863","lat":"46.1813070","lon":"11.2372800","tags":   [
+    {"name":"Faver","place":"village","population":"733"    }
+   ]
+ },
+ {"id":"64776865","lat":"46.1793313","lon":"11.0689304","tags":   [
+    {"name":"Fai della Paganella","place":"village","population":"900"    }
+   ]
+ },
+ {"id":"64776869","lat":"46.1181956","lon":"11.2065014","tags":   [
+    {"name":"Fornace","place":"village","population":"1166"    }
+   ]
+ },
+ {"id":"64776871","lat":"46.4400592","lon":"11.1364982","tags":   [
+    {"name":"Fondo","place":"village","population":"1135"    }
+   ]
+ },
+ {"id":"64776873","lat":"45.9149727","lon":"11.1730150","tags":   [
+    {"name":"Folgaria","place":"village","population":"3086"    }
+   ]
+ },
+ {"id":"64776875","lat":"46.3093118","lon":"11.0223784","tags":   [
+    {"name":"Terres","place":"village","population":"307"    }
+   ]
+ },
+ {"id":"64776877","lat":"46.2904160","lon":"11.5119770","tags":   [
+    {"name":"Tesero","place":"village","population":"2617"    }
+   ]
+ },
+ {"id":"64776879","lat":"46.0713520","lon":"11.4716722","tags":   [
+    {"name":"Telve di Sopra","place":"village","population":"612"    }
+   ]
+ },
+ {"id":"64776883","lat":"46.0980752","lon":"11.0461616","tags":   [
+    {"name":"Terlago","place":"village","population":"838"    }
+   ]
+ },
+ {"id":"64776887","lat":"46.1736285","lon":"11.8337247","tags":   [
+    {"name":"Transacqua","place":"village","population":"2021"    }
+   ]
+ },
+ {"id":"64776888","lat":"46.3231100","lon":"11.0968740","tags":   [
+    {"name":"Tres","place":"village","population":"644"    }
+   ]
+ },
+ {"id":"64776892","lat":"45.8936683","lon":"10.6864899","tags":   [
+    {"name":"Tiarno di Sotto","place":"village","population":"697"    }
+   ]
+ },
+ {"id":"64776898","lat":"46.0363045","lon":"10.7269092","tags":   [
+    {"name":"Tione di Trento","place":"village","population":"3620"    }
+   ]
+ },
+ {"id":"64776900","lat":"46.1036010","lon":"10.7393700","tags":   [
+    {"name":"Spiazzo","place":"village","population":"1122"    }
+   ]
+ },
+ {"id":"64776903","lat":"46.2177519","lon":"11.0482682","tags":   [
+    {"name":"Spormaggiore","place":"village","population":"1175"    }
+   ]
+ },
+ {"id":"64776905","lat":"46.1886647","lon":"11.8307666","tags":   [
+    {"name":"Siror","place":"village","population":"713"    }
+   ]
+ },
+ {"id":"64776913","lat":"46.0701645","lon":"11.5093252","tags":   [
+    {"name":"Spera","place":"village","population":"476"    }
+   ]
+ },
+ {"id":"64776917","lat":"46.3359316","lon":"11.0508480","tags":   [
+    {"name":"Tassullo","place":"village","population":"1554"    }
+   ]
+ },
+ {"id":"64776918","lat":"46.0713276","lon":"11.4795917","tags":   [
+    {"name":"Telve","place":"village","population":"1887"    }
+   ]
+ },
+ {"id":"64776921","lat":"46.0521680","lon":"10.8540886","tags":   [
+    {"name":"Stenico","place":"village","population":"1061"    }
+   ]
+ },
+ {"id":"64776927","lat":"46.4047110","lon":"11.0192710","tags":   [
+    {"name":"Livo","place":"village","population":"858"    }
+   ]
+ },
+ {"id":"64776930","lat":"45.8713221","lon":"10.7755719","tags":   [
+    {"name":"Molina di Ledro","place":"village","population":"1064"    }
+   ]
+ },
+ {"id":"64776932","lat":"46.2154357","lon":"11.1207858","tags":   [
+    {"name":"Mezzocorona","place":"village","population":"4711"    }
+   ]
+ },
+ {"id":"64776937","lat":"46.1510601","lon":"11.7963031","tags":   [
+    {"name":"Imer","place":"village","population":"1211"    }
+   ]
+ },
+ {"id":"64776939","lat":"46.0091259","lon":"11.3017774","tags":   [
+    {"name":"Levico Terme","place":"town","population":"7915"    }
+   ]
+ },
+ {"id":"64776941","lat":"46.1397416","lon":"11.1102267","tags":   [
+    {"name":"Lavis","place":"village","population":"8915"    }
+   ]
+ },
+ {"id":"64776943","lat":"46.1514234","lon":"11.0969815","tags":   [
+    {"name":"Zambana","place":"village","population":"1569"    }
+   ]
+ },
+ {"id":"64776948","lat":"46.0617000","lon":"10.7110700","tags":   [
+    {"name":"Villa Rendena","place":"village","population":"397"    }
+   ]
+ },
+ {"id":"64776950","lat":"46.0170354","lon":"11.6359415","tags":   [
+    {"name":"Grigno","place":"village","population":"2340"    }
+   ]
+ },
+ {"id":"64776952","lat":"46.4576678","lon":"11.7001823","tags":   [
+    {"name":"Mazzin - Mazin","place":"village","population":"116"    }
+   ]
+ },
+ {"id":"64776954","lat":"46.4204045","lon":"11.6726135","tags":   [
+    {"name":"Vigo di Fassa - Vich","place":"village","population":"1073"    }
+   ]
+ },
+ {"id":"64776957","lat":"46.2071570","lon":"11.2665573","tags":   [
+    {"name":"Valda","place":"village","population":"214"    }
+   ]
+ },
+ {"id":"64776961","lat":"46.0803183","lon":"10.7210228","tags":   [
+    {"name":"Vigo Rendena","place":"village","population":"501"    }
+   ]
+ },
+ {"id":"64776962","lat":"46.4302623","lon":"11.6867947","tags":   [
+    {"name":"Pozza di Fassa - Poza","place":"village","population":"1462"    }
+   ]
+ },
+ {"id":"64776969","lat":"45.9350167","lon":"10.6319595","tags":   [
+    {"name":"Prezzo","place":"village","population":"208"    }
+   ]
+ },
+ {"id":"64776971","lat":"45.8901489","lon":"10.7319906","tags":   [
+    {"name":"Pieve di Ledro","place":"village","population":"361"    }
+   ]
+ },
+ {"id":"64776973","lat":"46.0693085","lon":"11.6080910","tags":   [
+    {"name":"Pieve Tesino","place":"village","population":"772"    }
+   ]
+ },
+ {"id":"64776977","lat":"45.9280990","lon":"11.0430800","tags":   [
+    {"name":"Pomarolo","place":"village","population":"2125"    }
+   ]
+ },
+ {"id":"64776979","lat":"46.1669252","lon":"11.1073856","tags":   [
+    {"name":"Nave San Rocco","place":"village","population":"1061"    }
+   ]
+ },
+ {"id":"64776981","lat":"45.9285990","lon":"11.0718810","tags":   [
+    {"name":"Nomi","place":"village","population":"1286"    }
+   ]
+ },
+ {"id":"64776984","lat":"46.0228177","lon":"11.3664341","tags":   [
+    {"name":"Novaledo","place":"village","population":"882"    }
+   ]
+ },
+ {"id":"64776986","lat":"46.3098240","lon":"10.7604512","tags":   [
+    {"name":"Pellizzano","place":"village","population":"795"    }
+   ]
+ },
+ {"id":"64776988","lat":"46.1421057","lon":"10.9637773","tags":   [
+    {"name":"Molveno","place":"village","population":"1102"    }
+   ]
+ },
+ {"id":"64776990","lat":"46.3348080","lon":"10.8887690","tags":   [
+    {"name":"Monclassico","place":"village","population":"812"    }
+   ]
+ },
+ {"id":"64776992","lat":"45.8533795","lon":"10.9753961","tags":   [
+    {"name":"Mori","place":"town","population":"10211"    }
+   ]
+ },
+ {"id":"107373240","lat":"46.0183144","lon":"10.9474300","tags":   [
+    {"name":"Pietramurata","place":"village","population":""    }
+   ]
+ },
+ {"id":"107373839","lat":"46.0458775","lon":"10.9515034","tags":   [
+    {"name":"Sarche","place":"village","population":"533"    }
+   ]
+ },
+ {"id":"107432938","lat":"45.8460689","lon":"10.9519659","tags":   [
+    {"name":"Sano","place":"village","population":""    }
+   ]
+ },
+ {"id":"107452346","lat":"45.8775760","lon":"10.8900398","tags":   [
+    {"name":"Nago","place":"village","population":""    }
+   ]
+ },
+ {"id":"248888756","lat":"46.0655017","lon":"11.1549620","tags":   [
+    {"name":"Povo","place":"village","population":"4689"    }
+   ]
+ },
+ {"id":"248889227","lat":"46.2732582","lon":"11.4164828","tags":   [
+    {"name":"Molina di Fiemme","place":"village","population":"971"    }
+   ]
+ },
+ {"id":"253776788","lat":"46.2623377","lon":"11.8028280","tags":   [
+    {"name":"San Martino di Castrozza","place":"village","population":"535"    }
+   ]
+ },
+ {"id":"259973563","lat":"46.1083875","lon":"11.1455826","tags":   [
+    {"name":"Montevaccino","place":"village","population":""    }
+   ]
+ },
+ {"id":"260007551","lat":"46.2164315","lon":"11.3271151","tags":   [
+    {"name":"Montesover","place":"village","population":""    }
+   ]
+ },
+ {"id":"261087055","lat":"46.2811245","lon":"11.4351252","tags":   [
+    {"name":"Castello di Fiemme","place":"village","population":"1106"    }
+   ]
+ },
+ {"id":"264799276","lat":"46.0327785","lon":"11.2472099","tags":   [
+    {"name":"Ischia","place":"village","population":""    }
+   ]
+ },
+ {"id":"267666996","lat":"46.0631331","lon":"11.0966540","tags":   [
+    {"name":"Sardagna","place":"village","population":"903"    }
+   ]
+ },
+ {"id":"268802353","lat":"46.1331080","lon":"11.2460028","tags":   [
+    {"name":"Baselga di Piné","place":"village","population":"5038"    }
+   ]
+ },
+ {"id":"269004350","lat":"45.8516514","lon":"10.8247463","tags":   [
+    {"name":"Pregasina","place":"village","population":""    }
+   ]
+ },
+ {"id":"269005217","lat":"45.8655249","lon":"10.8055902","tags":   [
+    {"name":"Biacesa di Ledro","place":"village","population":"208"    }
+   ]
+ },
+ {"id":"269125461","lat":"46.1269470","lon":"11.2475895","tags":   [
+    {"name":"Miola","place":"village","population":"1100"    }
+   ]
+ },
+ {"id":"269127244","lat":"46.1301031","lon":"11.2342645","tags":   [
+    {"name":"Tressilla","place":"village","population":""    }
+   ]
+ },
+ {"id":"269139565","lat":"46.1496242","lon":"11.2725030","tags":   [
+    {"name":"Campolongo","place":"village","population":""    }
+   ]
+ },
+ {"id":"269139663","lat":"46.1484758","lon":"11.2632881","tags":   [
+    {"name":"Rizzolaga","place":"village","population":""    }
+   ]
+ },
+ {"id":"269195894","lat":"46.1097232","lon":"11.2522951","tags":   [
+    {"name":"Faida","place":"village","population":""    }
+   ]
+ },
+ {"id":"269197444","lat":"46.0972873","lon":"11.2357866","tags":   [
+    {"name":"Montagnaga","place":"village","population":""    }
+   ]
+ },
+ {"id":"269358768","lat":"46.2393453","lon":"11.3250918","tags":   [
+    {"name":"Piscine","place":"village","population":""    }
+   ]
+ },
+ {"id":"269555337","lat":"46.1259582","lon":"11.2409352","tags":   [
+    {"name":"Vigo","place":"village","population":""    }
+   ]
+ },
+ {"id":"270664155","lat":"45.8865480","lon":"11.0452369","tags":   [
+    {"name":"Rovereto","place":"town","population":"39289"    }
+   ]
+ },
+ {"id":"270912891","lat":"46.0390092","lon":"11.2351165","tags":   [
+    {"name":"San Cristoforo al Lago","place":"village","population":""    }
+   ]
+ },
+ {"id":"272333332","lat":"46.4408515","lon":"11.6929143","tags":   [
+    {"name":"Pera","place":"village","population":""    }
+   ]
+ },
+ {"id":"274110559","lat":"46.0834168","lon":"11.2217848","tags":   [
+    {"name":"Canzolino","place":"village","population":""    }
+   ]
+ },
+ {"id":"277390418","lat":"46.0853643","lon":"11.2140055","tags":   [
+    {"name":"Madrano","place":"village","population":""    }
+   ]
+ },
+ {"id":"277765028","lat":"46.0727819","lon":"11.0600067","tags":   [
+    {"name":"Sopramonte","place":"village","population":""    }
+   ]
+ },
+ {"id":"278536307","lat":"46.1032748","lon":"11.2120050","tags":   [
+    {"name":"Nogaré","place":"village","population":""    }
+   ]
+ },
+ {"id":"278546542","lat":"46.1235181","lon":"11.1164769","tags":   [
+    {"name":"Meano","place":"village","population":"2096"    }
+   ]
+ },
+ {"id":"282673529","lat":"46.1199120","lon":"10.7514518","tags":   [
+    {"name":"Strembo","place":"village","population":"452"    }
+   ]
+ },
+ {"id":"287339352","lat":"46.1583951","lon":"11.2899956","tags":   [
+    {"name":"Piazze","place":"village","population":""    }
+   ]
+ },
+ {"id":"287896814","lat":"45.9216649","lon":"11.3242901","tags":   [
+    {"name":"Lusérn - Luserna","place":"village","population":"276"    }
+   ]
+ },
+ {"id":"289241792","lat":"46.0489148","lon":"11.1461118","tags":   [
+    {"name":"Villazzano","place":"village","population":""    }
+   ]
+ },
+ {"id":"292028996","lat":"46.0880987","lon":"11.1308469","tags":   [
+    {"name":"Martignano","place":"village","population":""    }
+   ]
+ },
+ {"id":"292032968","lat":"46.0819401","lon":"11.1568361","tags":   [
+    {"name":"Tavernaro","place":"village","population":"744"    }
+   ]
+ },
+ {"id":"292033159","lat":"46.0857809","lon":"11.1589457","tags":   [
+    {"name":"Villamontagna","place":"village","population":"744"    }
+   ]
+ },
+ {"id":"293121096","lat":"46.0792008","lon":"10.9902814","tags":   [
+    {"name":"Fraveggio","place":"village","population":""    }
+   ]
+ },
+ {"id":"293351035","lat":"45.9799425","lon":"11.2378643","tags":   [
+    {"name":"Pian dei Pradi","place":"village","population":""    }
+   ]
+ },
+ {"id":"293884641","lat":"46.0510584","lon":"11.2232575","tags":   [
+    {"name":"Susà","place":"village","population":"775"    }
+   ]
+ },
+ {"id":"296376449","lat":"45.8559614","lon":"10.9310406","tags":   [
+    {"name":"Loppio","place":"village","population":""    }
+   ]
+ },
+ {"id":"297879805","lat":"45.9224326","lon":"10.8193944","tags":   [
+    {"name":"Pranzo","place":"village","population":""    }
+   ]
+ },
+ {"id":"298116463","lat":"45.9076550","lon":"10.8412523","tags":   [
+    {"name":"Varone","place":"village","population":""    }
+   ]
+ },
+ {"id":"299651013","lat":"45.9132145","lon":"10.9039354","tags":   [
+    {"name":"Bolognano","place":"village","population":"2102"    }
+   ]
+ },
+ {"id":"299943877","lat":"45.9299831","lon":"10.8233788","tags":   [
+    {"name":"Ville Del Monte","place":"village","population":""    }
+   ]
+ },
+ {"id":"301244739","lat":"45.8812240","lon":"10.7508258","tags":   [
+    {"name":"Mezzolago","place":"village","population":"250"    }
+   ]
+ },
+ {"id":"301453870","lat":"45.9113851","lon":"10.8113356","tags":   [
+    {"name":"Campi","place":"village","population":""    }
+   ]
+ },
+ {"id":"301850417","lat":"45.9262795","lon":"10.8968626","tags":   [
+    {"name":"San Martino","place":"village","population":""    }
+   ]
+ },
+ {"id":"301850483","lat":"45.9230152","lon":"10.9024605","tags":   [
+    {"name":"Massone","place":"village","population":""    }
+   ]
+ },
+ {"id":"305880648","lat":"46.0818309","lon":"11.0450830","tags":   [
+    {"name":"Vigolo Baselga","place":"village","population":""    }
+   ]
+ },
+ {"id":"306396668","lat":"45.8639784","lon":"11.0842548","tags":   [
+    {"name":"Pozza","place":"village","population":"124"    }
+   ]
+ },
+ {"id":"307700089","lat":"45.9031013","lon":"11.0005203","tags":   [
+    {"name":"Patone","place":"village","population":""    }
+   ]
+ },
+ {"id":"307705098","lat":"45.9105205","lon":"11.0116212","tags":   [
+    {"name":"Noarna","place":"village","population":""    }
+   ]
+ },
+ {"id":"307705105","lat":"45.9038694","lon":"11.0133008","tags":   [
+    {"name":"Sasso","place":"village","population":""    }
+   ]
+ },
+ {"id":"307705546","lat":"45.9023193","lon":"11.0210424","tags":   [
+    {"name":"Brancolino","place":"village","population":""    }
+   ]
+ },
+ {"id":"317401114","lat":"45.7826533","lon":"11.1188581","tags":   [
+    {"name":"Raossi","place":"village","population":"167"    }
+   ]
+ },
+ {"id":"317523335","lat":"46.0147988","lon":"11.3190035","tags":   [
+    {"name":"Selva di Levico","place":"village","population":""    }
+   ]
+ },
+ {"id":"317642494","lat":"46.0044078","lon":"11.3355912","tags":   [
+    {"name":"Barco","place":"village","population":""    }
+   ]
+ },
+ {"id":"319913153","lat":"46.0985179","lon":"11.0186457","tags":   [
+    {"name":"Covelo","place":"village","population":"361"    }
+   ]
+ },
+ {"id":"319916993","lat":"46.1085267","lon":"11.0445425","tags":   [
+    {"name":"Vallene","place":"village","population":"263"    }
+   ]
+ },
+ {"id":"322897653","lat":"45.9513485","lon":"10.9013353","tags":   [
+    {"name":"Ceniga","place":"village","population":""    }
+   ]
+ },
+ {"id":"327493484","lat":"46.3135809","lon":"11.6623676","tags":   [
+    {"name":"Bellamonte","place":"village","population":""    }
+   ]
+ },
+ {"id":"327493488","lat":"46.1600499","lon":"11.1717892","tags":   [
+    {"name":"Ceola","place":"village","population":"234"    }
+   ]
+ },
+ {"id":"327580361","lat":"46.3030712","lon":"10.8656079","tags":   [
+    {"name":"Folgarida","place":"village","population":"33"    }
+   ]
+ },
+ {"id":"329365185","lat":"45.9146497","lon":"10.8418241","tags":   [
+    {"name":"Cologna","place":"village","population":""    }
+   ]
+ },
+ {"id":"329365193","lat":"45.9129226","lon":"10.8408141","tags":   [
+    {"name":"Gavazzo","place":"village","population":""    }
+   ]
+ },
+ {"id":"330308343","lat":"46.0866941","lon":"11.0635640","tags":   [
+    {"name":"Cadine","place":"village","population":"1393"    }
+   ]
+ },
+ {"id":"331812744","lat":"45.8992737","lon":"10.8672807","tags":   [
+    {"name":"San Giorgio","place":"village","population":""    }
+   ]
+ },
+ {"id":"333696240","lat":"46.3998778","lon":"10.8469750","tags":   [
+    {"name":"San Bernardo","place":"village","population":""    }
+   ]
+ },
+ {"id":"339809395","lat":"45.9917247","lon":"11.3152089","tags":   [
+    {"name":"Santa Giuliana","place":"village","population":""    }
+   ]
+ },
+ {"id":"359920985","lat":"46.0822099","lon":"11.1020056","tags":   [
+    {"name":"Vela","place":"village","population":"963"    }
+   ]
+ },
+ {"id":"363580243","lat":"46.3632208","lon":"11.0956765","tags":   [
+    {"name":"Tavon","place":"village","population":""    }
+   ]
+ },
+ {"id":"366869323","lat":"46.1106089","lon":"11.0383030","tags":   [
+    {"name":"Monte Terlago","place":"village","population":"400"    }
+   ]
+ },
+ {"id":"370116747","lat":"45.9383157","lon":"11.0551461","tags":   [
+    {"name":"Savignano","place":"village","population":""    }
+   ]
+ },
+ {"id":"387487311","lat":"45.9202389","lon":"10.8582749","tags":   [
+    {"name":"Varignano","place":"village","population":""    }
+   ]
+ },
+ {"id":"389016464","lat":"46.3794753","lon":"11.1068417","tags":   [
+    {"name":"Salter","place":"village","population":""    }
+   ]
+ },
+ {"id":"410422024","lat":"46.1013736","lon":"11.1016996","tags":   [
+    {"name":"Roncafort","place":"village","population":""    }
+   ]
+ },
+ {"id":"417065969","lat":"46.0746454","lon":"11.2522841","tags":   [
+    {"name":"Serso","place":"village","population":"425"    }
+   ]
+ },
+ {"id":"417284287","lat":"46.0788068","lon":"11.2780094","tags":   [
+    {"name":"Canezza","place":"village","population":"566"    }
+   ]
+ },
+ {"id":"432437933","lat":"45.9304441","lon":"10.6382145","tags":   [
+    {"name":"Cologna","place":"village","population":"198"    }
+   ]
+ },
+ {"id":"441929512","lat":"46.1528591","lon":"11.1067406","tags":   [
+    {"name":"Pressano","place":"village","population":"535"    }
+   ]
+ },
+ {"id":"457943320","lat":"46.0405786","lon":"11.4652713","tags":   [
+    {"name":"Olle","place":"village","population":""    }
+   ]
+ },
+ {"id":"462128321","lat":"46.0993342","lon":"10.7338570","tags":   [
+    {"name":"Borzago","place":"village","population":""    }
+   ]
+ },
+ {"id":"469856779","lat":"45.8490749","lon":"10.5799139","tags":   [
+    {"name":"Storo","place":"village","population":"4620"    }
+   ]
+ },
+ {"id":"469869135","lat":"45.8420173","lon":"10.5494599","tags":   [
+    {"name":"Darzo","place":"village","population":""    }
+   ]
+ },
+ {"id":"469869136","lat":"45.8296594","lon":"10.5355562","tags":   [
+    {"name":"Lodrone","place":"village","population":""    }
+   ]
+ },
+ {"id":"469870102","lat":"45.8281446","lon":"10.5087896","tags":   [
+    {"name":"Riccomassimo","place":"village","population":""    }
+   ]
+ },
+ {"id":"470000985","lat":"46.1029855","lon":"11.3108581","tags":   [
+    {"name":"Auserpèrg - San Francesco","place":"village","population":"27"    }
+   ]
+ },
+ {"id":"474782106","lat":"46.0668574","lon":"11.2553966","tags":   [
+    {"name":"Zivignago","place":"village","population":""    }
+   ]
+ },
+ {"id":"474986874","lat":"46.0803612","lon":"11.2639848","tags":   [
+    {"name":"Viarago","place":"village","population":"498"    }
+   ]
+ },
+ {"id":"477321770","lat":"46.1617093","lon":"11.3027998","tags":   [
+    {"name":"Centrale","place":"village","population":""    }
+   ]
+ },
+ {"id":"480677876","lat":"45.8547211","lon":"10.5667429","tags":   [
+    {"name":"Ca' Rossa","place":"village","population":""    }
+   ]
+ },
+ {"id":"485360490","lat":"46.0386048","lon":"11.1108136","tags":   [
+    {"name":"Ravina","place":"village","population":""    }
+   ]
+ },
+ {"id":"495210889","lat":"45.8991681","lon":"10.7251828","tags":   [
+    {"name":"Locca","place":"village","population":"255"    }
+   ]
+ },
+ {"id":"498427674","lat":"45.9129054","lon":"10.7269593","tags":   [
+    {"name":"Lenzumo","place":"village","population":"317"    }
+   ]
+ },
+ {"id":"510190803","lat":"45.8898152","lon":"10.8622027","tags":   [
+    {"name":"Sant'Alessandro","place":"village","population":""    }
+   ]
+ },
+ {"id":"546156265","lat":"46.1677270","lon":"11.1567896","tags":   [
+    {"name":"Ville","place":"village","population":"415"    }
+   ]
+ },
+ {"id":"546157459","lat":"46.1581532","lon":"11.1412999","tags":   [
+    {"name":"Palù","place":"village","population":"537"    }
+   ]
+ },
+ {"id":"552913512","lat":"46.1717013","lon":"11.2479998","tags":   [
+    {"name":"Sevignano","place":"village","population":"248"    }
+   ]
+ },
+ {"id":"559252023","lat":"45.8073003","lon":"10.5412439","tags":   [
+    {"name":"Baitoni","place":"village","population":""    }
+   ]
+ },
+ {"id":"656413972","lat":"45.9861559","lon":"10.9749955","tags":   [
+    {"name":"Brusino","place":"village","population":""    }
+   ]
+ },
+ {"id":"674037294","lat":"46.0077672","lon":"10.6993441","tags":   [
+    {"name":"Breguzzo","place":"village","population":"545"    }
+   ]
+ },
+ {"id":"676868542","lat":"45.9649036","lon":"10.9640895","tags":   [
+    {"name":"Luch","place":"village","population":""    }
+   ]
+ },
+ {"id":"676868707","lat":"46.0035588","lon":"10.9844795","tags":   [
+    {"name":"Stravino","place":"village","population":""    }
+   ]
+ },
+ {"id":"676897673","lat":"45.9656361","lon":"10.9738375","tags":   [
+    {"name":"Masi di Vigo","place":"village","population":""    }
+   ]
+ },
+ {"id":"685822808","lat":"45.9789075","lon":"10.9809915","tags":   [
+    {"name":"Vigo Cavedine","place":"village","population":""    }
+   ]
+ },
+ {"id":"748751976","lat":"46.1953887","lon":"11.6809489","tags":   [
+    {"name":"Caoria","place":"village","population":"371"    }
+   ]
+ },
+ {"id":"848813091","lat":"46.2765304","lon":"11.0790423","tags":   [
+    {"name":"Toss","place":"village","population":"255"    }
+   ]
+ },
+ {"id":"848813094","lat":"46.2465828","lon":"11.0679596","tags":   [
+    {"name":"Masi di Vigo","place":"village","population":"131"    }
+   ]
+ },
+ {"id":"863738650","lat":"46.0048443","lon":"11.1983809","tags":   [
+    {"name":"Vigolo Vattaro","place":"village","population":"1779"    }
+   ]
+ },
+ {"id":"864550532","lat":"46.1634193","lon":"11.1116746","tags":   [
+    {"name":"Nave San Felice","place":"village","population":"446"    }
+   ]
+ },
+ {"id":"869557715","lat":"46.2599818","lon":"11.0486110","tags":   [
+    {"name":"Quetta","place":"village","population":""    }
+   ]
+ },
+ {"id":"869558024","lat":"46.2485755","lon":"11.0473654","tags":   [
+    {"name":"Dercolo","place":"village","population":""    }
+   ]
+ },
+ {"id":"869558053","lat":"46.2480305","lon":"11.0242008","tags":   [
+    {"name":"Lover","place":"village","population":""    }
+   ]
+ },
+ {"id":"874391049","lat":"46.4107636","lon":"10.8191595","tags":   [
+    {"name":"Piazzola","place":"village","population":""    }
+   ]
+ },
+ {"id":"889275998","lat":"46.1955926","lon":"11.1291671","tags":   [
+    {"name":"Grumo","place":"village","population":""    }
+   ]
+ },
+ {"id":"889464668","lat":"46.1074737","lon":"11.1100404","tags":   [
+    {"name":"Gardolo","place":"village","population":""    }
+   ]
+ },
+ {"id":"890901789","lat":"46.1756007","lon":"11.1232540","tags":   [
+    {"name":"Sorni","place":"village","population":""    }
+   ]
+ },
+ {"id":"894388401","lat":"45.8930810","lon":"11.1541742","tags":   [
+    {"name":"Serrada","place":"village","population":"214"    }
+   ]
+ },
+ {"id":"903096866","lat":"46.1334161","lon":"11.1340363","tags":   [
+    {"name":"Vigo Meano","place":"village","population":"871"    }
+   ]
+ },
+ {"id":"917109643","lat":"45.9397228","lon":"11.2691526","tags":   [
+    {"name":"Gionghi","place":"village","population":"483"    }
+   ]
+ },
+ {"id":"937802075","lat":"46.1826169","lon":"11.3258268","tags":   [
+    {"name":"Brusago","place":"village","population":""    }
+   ]
+ },
+ {"id":"959515220","lat":"46.0576383","lon":"11.5218054","tags":   [
+    {"name":"Villa","place":"village","population":""    }
+   ]
+ },
+ {"id":"982051012","lat":"46.3546886","lon":"10.6628811","tags":   [
+    {"name":"Peio Fonti","place":"village","population":""    }
+   ]
+ },
+ {"id":"1105236644","lat":"45.8693034","lon":"10.8763980","tags":   [
+    {"name":"Torbole","place":"village","population":"2895"    }
+   ]
+ },
+ {"id":"1141378762","lat":"46.1067902","lon":"11.1842845","tags":   [
+    {"name":"Sant'Agnese","place":"village","population":""    }
+   ]
+ },
+ {"id":"1153236252","lat":"46.0516232","lon":"11.4103025","tags":   [
+    {"name":"Roncegno Terme","place":"village","population":"2879"    }
+   ]
+ },
+ {"id":"1169656330","lat":"46.0587789","lon":"10.7514010","tags":   [
+    {"name":"Larzana","place":"village","population":"141"    }
+   ]
+ },
+ {"id":"1181156655","lat":"46.0026491","lon":"11.0870545","tags":   [
+    {"name":"Garniga Terme","place":"village","population":"384"    }
+   ]
+ },
+ {"id":"1187757106","lat":"46.2498461","lon":"11.3431769","tags":   [
+    {"name":"Casatta","place":"village","population":""    }
+   ]
+ },
+ {"id":"1203631879","lat":"46.0688626","lon":"11.5274732","tags":   [
+    {"name":"Tomaselli","place":"village","population":""    }
+   ]
+ },
+ {"id":"1204785898","lat":"46.0079317","lon":"11.1284914","tags":   [
+    {"name":"Mattarello","place":"village","population":"5214"    }
+   ]
+ },
+ {"id":"1215858565","lat":"46.4095018","lon":"11.0130645","tags":   [
+    {"name":"Preghena","place":"village","population":""    }
+   ]
+ },
+ {"id":"1215914091","lat":"46.0032076","lon":"11.2275827","tags":   [
+    {"name":"Migazzone","place":"village","population":""    }
+   ]
+ },
+ {"id":"1215920354","lat":"46.4507108","lon":"11.0089854","tags":   [
+    {"name":"Mocenigo","place":"village","population":"235"    }
+   ]
+ },
+ {"id":"1270823109","lat":"46.3798214","lon":"11.0910792","tags":   [
+    {"name":"Malgolo","place":"village","population":""    }
+   ]
+ },
+ {"id":"1277582805","lat":"46.3757947","lon":"11.0757707","tags":   [
+    {"name":"Casez","place":"village","population":"247"    }
+   ]
+ },
+ {"id":"1277582831","lat":"46.3743057","lon":"11.0686564","tags":   [
+    {"name":"Banco","place":"village","population":"318"    }
+   ]
+ },
+ {"id":"1283835804","lat":"46.0045798","lon":"10.8420518","tags":   [
+    {"name":"Fiavé","place":"village","population":"1117"    }
+   ]
+ },
+ {"id":"1290188543","lat":"46.1946455","lon":"11.9430584","tags":   [
+    {"name":"Sagron","place":"village","population":"48"    }
+   ]
+ },
+ {"id":"1293135875","lat":"46.3381739","lon":"11.0625188","tags":   [
+    {"name":"Dermulo","place":"village","population":"200"    }
+   ]
+ },
+ {"id":"1293493167","lat":"46.3532179","lon":"10.6920678","tags":   [
+    {"name":"Cogolo","place":"village","population":"734"    }
+   ]
+ },
+ {"id":"1295051314","lat":"46.3311407","lon":"11.0410677","tags":   [
+    {"name":"Pavillo","place":"village","population":"321"    }
+   ]
+ },
+ {"id":"1295051382","lat":"46.3419217","lon":"11.0453959","tags":   [
+    {"name":"Rallo","place":"village","population":""    }
+   ]
+ },
+ {"id":"1304204880","lat":"46.3191362","lon":"10.8479506","tags":   [
+    {"name":"Almazzago","place":"village","population":"339"    }
+   ]
+ },
+ {"id":"1348395134","lat":"46.0299415","lon":"11.2282289","tags":   [
+    {"name":"Valcanover","place":"village","population":""    }
+   ]
+ },
+ {"id":"1359000278","lat":"46.0338978","lon":"11.3912221","tags":   [
+    {"name":"Marter","place":"village","population":"766"    }
+   ]
+ },
+ {"id":"1390205098","lat":"45.9342109","lon":"11.0943149","tags":   [
+    {"name":"Calliano","place":"village","population":"1807"    }
+   ]
+ },
+ {"id":"1393673270","lat":"46.3218149","lon":"10.7726164","tags":   [
+    {"name":"Castello","place":"village","population":""    }
+   ]
+ },
+ {"id":"1395839912","lat":"45.8780476","lon":"10.9917820","tags":   [
+    {"name":"Lenzima","place":"village","population":""    }
+   ]
+ },
+ {"id":"1431638691","lat":"46.1896057","lon":"10.7854208","tags":   [
+    {"name":"Sant'Antonio di Mavignola","place":"village","population":""    }
+   ]
+ },
+ {"id":"1481197751","lat":"46.3326082","lon":"10.8809904","tags":   [
+    {"name":"Presson","place":"village","population":"333"    }
+   ]
+ },
+ {"id":"1520987108","lat":"45.9149896","lon":"11.0330024","tags":   [
+    {"name":"Villa Lagarina","place":"village","population":"3778"    }
+   ]
+ },
+ {"id":"1533884128","lat":"46.0363724","lon":"11.1467671","tags":   [
+    {"name":"San Rocco","place":"village","population":""    }
+   ]
+ },
+ {"id":"1583824514","lat":"46.0682669","lon":"10.7114345","tags":   [
+    {"name":"Javrè","place":"village","population":"315"    }
+   ]
+ },
+ {"id":"1754696711","lat":"45.7402403","lon":"10.9536078","tags":   [
+    {"name":"Sabbionara","place":"village","population":"1186"    }
+   ]
+ },
+ {"id":"1761478383","lat":"46.0638909","lon":"10.9426790","tags":   [
+    {"name":"Ranzo","place":"village","population":"394"    }
+   ]
+ },
+ {"id":"1778353054","lat":"45.9237871","lon":"11.0069234","tags":   [
+    {"name":"Castellano","place":"village","population":"676"    }
+   ]
+ },
+ {"id":"1778353055","lat":"45.8852695","lon":"11.0093106","tags":   [
+    {"name":"Isera","place":"village","population":"2735"    }
+   ]
+ },
+ {"id":"1778353056","lat":"45.8656484","lon":"10.9534844","tags":   [
+    {"name":"Manzano","place":"village","population":""    }
+   ]
+ },
+ {"id":"1778353057","lat":"45.8962879","lon":"11.0158450","tags":   [
+    {"name":"Marano","place":"village","population":"316"    }
+   ]
+ },
+ {"id":"1778353060","lat":"45.9144273","lon":"11.0214101","tags":   [
+    {"name":"Molini","place":"village","population":""    }
+   ]
+ },
+ {"id":"1778353076","lat":"45.9120887","lon":"11.0230464","tags":   [
+    {"name":"Nogaredo","place":"village","population":"1220"    }
+   ]
+ },
+ {"id":"1778353080","lat":"45.8655003","lon":"10.9626728","tags":   [
+    {"name":"Nomesino","place":"village","population":""    }
+   ]
+ },
+ {"id":"1778353081","lat":"45.9192759","lon":"11.0202552","tags":   [
+    {"name":"Pedersano","place":"village","population":"957"    }
+   ]
+ },
+ {"id":"1778353082","lat":"45.9234276","lon":"11.0344144","tags":   [
+    {"name":"Piazzo","place":"village","population":"425"    }
+   ]
+ },
+ {"id":"1796357582","lat":"46.2269942","lon":"10.8270157","tags":   [
+    {"name":"Madonna di Campiglio","place":"village","population":"656"    }
+   ]
+ },
+ {"id":"1803712418","lat":"46.4467117","lon":"11.6901233","tags":   [
+    {"name":"Muncion","place":"village","population":""    }
+   ]
+ },
+ {"id":"1831140724","lat":"45.8659664","lon":"11.0745106","tags":   [
+    {"name":"Lesi","place":"village","population":""    }
+   ]
+ },
+ {"id":"1831140725","lat":"45.8699250","lon":"11.0735338","tags":   [
+    {"name":"Moscheri","place":"village","population":"358"    }
+   ]
+ },
+ {"id":"1836292156","lat":"45.9910549","lon":"11.6679025","tags":   [
+    {"name":"Tezze Valsugana","place":"village","population":"731"    }
+   ]
+ },
+ {"id":"1841546752","lat":"45.8696655","lon":"10.9375165","tags":   [
+    {"name":"Valle San Felice","place":"village","population":""    }
+   ]
+ },
+ {"id":"1858237074","lat":"45.9471215","lon":"10.6210857","tags":   [
+    {"name":"Daone","place":"village","population":"572"    }
+   ]
+ },
+ {"id":"1919210128","lat":"46.0183118","lon":"11.1061303","tags":   [
+    {"name":"Romagnano","place":"village","population":"1272"    }
+   ]
+ },
+ {"id":"1920147578","lat":"45.9419216","lon":"11.1095435","tags":   [
+    {"name":"Besenello","place":"village","population":"2654"    }
+   ]
+ },
+ {"id":"1922084004","lat":"46.0132824","lon":"10.8693488","tags":   [
+    {"name":"Vigo Lomaso","place":"village","population":"243"    }
+   ]
+ },
+ {"id":"1992960542","lat":"45.9254077","lon":"11.2133243","tags":   [
+    {"name":"San Sebastiano","place":"village","population":"235"    }
+   ]
+ },
+ {"id":"2000025397","lat":"46.2946842","lon":"11.0713894","tags":   [
+    {"name":"Mollaro","place":"village","population":"382"    }
+   ]
+ },
+ {"id":"2000025401","lat":"46.2900040","lon":"11.0925781","tags":   [
+    {"name":"Priò","place":"village","population":"272"    }
+   ]
+ },
+ {"id":"2000025404","lat":"46.3057402","lon":"11.0747219","tags":   [
+    {"name":"Segno","place":"village","population":"651"    }
+   ]
+ },
+ {"id":"2094692336","lat":"45.7959826","lon":"10.9723708","tags":   [
+    {"name":"Saccone","place":"village","population":""    }
+   ]
+ },
+ {"id":"2194523293","lat":"46.0264541","lon":"10.9592319","tags":   [
+    {"name":"Pergolese","place":"village","population":"382"    }
+   ]
+ },
+ {"id":"2269891807","lat":"45.9208947","lon":"10.8704985","tags":   [
+    {"name":"Chiarano","place":"village","population":""    }
+   ]
+ },
+ {"id":"2269891808","lat":"45.9222912","lon":"10.8654114","tags":   [
+    {"name":"Vigne","place":"village","population":""    }
+   ]
+ },
+ {"id":"2332445306","lat":"45.7707722","lon":"11.0000037","tags":   [
+    {"name":"Pilcante","place":"village","population":""    }
+   ]
+ },
+ {"id":"2370292385","lat":"45.9430440","lon":"10.6334064","tags":   [
+    {"name":"Bersone","place":"village","population":"288"    }
+   ]
+ },
+ {"id":"2370292386","lat":"45.9493976","lon":"10.6368941","tags":   [
+    {"name":"Praso","place":"village","population":"309"    }
+   ]
+ },
+ {"id":"2399187097","lat":"46.0173172","lon":"10.8203734","tags":   [
+    {"name":"Cavrasto","place":"village","population":""    }
+   ]
+ },
+ {"id":"2428430234","lat":"46.3239791","lon":"10.8833314","tags":   [
+    {"name":"Carciato","place":"village","population":""    }
+   ]
+ },
+ {"id":"2621354975","lat":"45.8381604","lon":"10.9698936","tags":   [
+    {"name":"Besagno","place":"village","population":""    }
+   ]
+ },
+ {"id":"2621354978","lat":"45.8187739","lon":"10.9560131","tags":   [
+    {"name":"Brentonico","place":"village","population":"3620"    }
+   ]
+ },
+ {"id":"2621354984","lat":"45.8372886","lon":"10.9530171","tags":   [
+    {"name":"Castione","place":"village","population":""    }
+   ]
+ },
+ {"id":"2621354987","lat":"45.8169415","lon":"10.9691473","tags":   [
+    {"name":"Cazzano","place":"village","population":""    }
+   ]
+ },
+ {"id":"2621354992","lat":"45.8111347","lon":"11.0087414","tags":   [
+    {"name":"Chizzola","place":"village","population":""    }
+   ]
+ },
+ {"id":"2621355008","lat":"45.8082564","lon":"10.9712061","tags":   [
+    {"name":"Corné","place":"village","population":""    }
+   ]
+ },
+ {"id":"2621355017","lat":"45.8203213","lon":"10.9736927","tags":   [
+    {"name":"Crosano","place":"village","population":""    }
+   ]
+ },
+ {"id":"2621355040","lat":"45.8168791","lon":"10.9482533","tags":   [
+    {"name":"Fontechel","place":"village","population":""    }
+   ]
+ },
+ {"id":"2621355055","lat":"45.8011808","lon":"10.9582868","tags":   [
+    {"name":"Prada","place":"village","population":""    }
+   ]
+ },
+ {"id":"2621355078","lat":"45.7978814","lon":"11.0256445","tags":   [
+    {"name":"Santa Margherita","place":"village","population":""    }
+   ]
+ },
+ {"id":"2621355085","lat":"45.8124564","lon":"11.0135241","tags":   [
+    {"name":"Serravalle all'Adige","place":"village","population":""    }
+   ]
+ },
+ {"id":"2621355090","lat":"45.8076461","lon":"10.9528612","tags":   [
+    {"name":"Sorne","place":"village","population":""    }
+   ]
+ },
+ {"id":"2626943157","lat":"45.8434211","lon":"11.0098776","tags":   [
+    {"name":"Marco","place":"village","population":""    }
+   ]
+ },
+ {"id":"2628195252","lat":"45.8903435","lon":"11.0065570","tags":   [
+    {"name":"Reviano","place":"village","population":""    }
+   ]
+ },
+ {"id":"2659785803","lat":"45.8790891","lon":"11.1520583","tags":   [
+    {"name":"Piazza","place":"village","population":"292"    }
+   ]
+ },
+ {"id":"2742429199","lat":"45.8838773","lon":"11.0686843","tags":   [
+    {"name":"Noriglio","place":"village","population":""    }
+   ]
+ },
+ {"id":"3132160843","lat":"46.0417116","lon":"11.2297290","tags":   [
+    {"name":"Canale","place":"village","population":""    }
+   ]
+ },
+ {"id":"3403700975","lat":"46.3220056","lon":"10.8395473","tags":   [
+    {"name":"Mestriago","place":"village","population":"163"    }
+   ]
+ },
+ {"id":"3420327670","lat":"46.1296038","lon":"11.3524912","tags":   [
+    {"name":"Palai en Bersntol - Palù del Fersina","place":"village","population":"173"    }
+   ]
+ },
+ {"id":"3420413061","lat":"46.1120630","lon":"11.3218180","tags":   [
+    {"name":"Mitterpèrg - San Felice","place":"village","population":"67"    }
+   ]
+ },
+ {"id":"3896647666","lat":"45.9397779","lon":"10.6391894","tags":   [
+    {"name":"Creto","place":"village","population":"804"    }
+   ]
+ },
+ {"id":"4192043507","lat":"46.3096876","lon":"11.7482419","tags":   [
+    {"name":"Paneveggio","place":"village","population":""    }
+   ]
+ },
+ {"id":"4311362989","lat":"46.1617322","lon":"10.7650043","tags":   [
+    {"name":"Pinzolo","place":"village","population":"3118"    }
+   ]
+ },
+ {"id":"4392004005","lat":"46.3123614","lon":"11.6026938","tags":   [
+    {"name":"Predazzo","place":"village","population":"4530"    }
+   ]
+ },
+ {"id":"4464079806","lat":"45.7579008","lon":"11.0018179","tags":   [
+    {"name":"Ala","place":"village","population":"4167"    }
+   ]
+ },
+ {"id":"4464079813","lat":"46.4118147","lon":"10.9708987","tags":   [
+    {"name":"Bresimo","place":"village","population":"252"    }
+   ]
+ },
+ {"id":"4464079823","lat":"46.0578140","lon":"11.5318787","tags":   [
+    {"name":"Ivano-Fracena","place":"village","population":"329"    }
+   ]
+ },
+ {"id":"4464079832","lat":"45.8829583","lon":"11.0532312","tags":   [
+    {"name":"Porte","place":"village","population":"358"    }
+   ]
+ },
+ {"id":"6190363865","lat":"46.1074269","lon":"10.7404326","tags":   [
+    {"name":"Mortaso","place":"village","population":""    }
+   ]
+ },
+ {"id":"6195338013","lat":"46.1892378","lon":"11.2598782","tags":   [
+    {"name":"Segonzano","place":"village","population":"1500"    }
+   ]
+ },
+ {"id":"6655347153","lat":"45.9206726","lon":"11.1874124","tags":   [
+    {"name":"Costa di Folgaria","place":"village","population":""    }
+   ]
+ },
+ {"id":"6746269840","lat":"46.4788173","lon":"11.1375618","tags":   [
+    {"name":"Tret","place":"village","population":""    }
+   ]
+ },
+ {"id":"6835458891","lat":"45.9785328","lon":"11.0698033","tags":   [
+    {"name":"Covelo","place":"village","population":""    }
+   ]
+ },
+ {"id":"7156374264","lat":"46.1212774","lon":"11.3380412","tags":   [
+    {"name":"Inderpèrg - San Felice","place":"village","population":""    }
+   ]
+ },
+ {"id":"7157185900","lat":"46.0840576","lon":"11.2913950","tags":   [
+    {"name":"Auserpèrg - Frassilongo","place":"village","population":""    }
+   ]
+ },
+ {"id":"7157185901","lat":"46.0911047","lon":"11.2994082","tags":   [
+    {"name":"Inderpèrg - Frassilongo","place":"village","population":""    }
+   ]
+ },
+ {"id":"8570266977","lat":"46.0779731","lon":"11.0467100","tags":   [
+    {"name":"Baselga del Bondone","place":"village","population":""    }
+   ]
+ },
+ {"id":"8872038905","lat":"45.7654736","lon":"11.1165396","tags":   [
+    {"name":"Obra","place":"village","population":""    }
+   ]
+ },
+ {"id":"9933588514","lat":"46.4239951","lon":"11.6806938","tags":   [
+    {"name":"San Giovanni di Fassa - Sèn Jan","place":"village","population":"3574"    }
+   ]
+ },
+ {"id":"9944747181","lat":"46.3042800","lon":"10.8105041","tags":   [
+    {"name":"Marilleva","place":"village","population":"25"    }
+   ]
+ },
+ {"id":"10069074639","lat":"45.9949019","lon":"10.6915967","tags":   [
+    {"name":"Pradibondo","place":"village","population":""    }
+   ]
+ },
+ {"id":"12000651971","lat":"45.8696028","lon":"10.9386022","tags":   [
+    {"name":"Valle San Felice","place":"village","population":""    }
+   ]
+ },
+ {"id":"12011755166","lat":"45.8655191","lon":"10.9534360","tags":   [
+    {"name":"Manzano","place":"village","population":""    }
+   ]
+ },
+ {"id":"12471621172","lat":"46.4045541","lon":"11.6081568","tags":   [
+    {"name":"Jouf de Ciareja - passo Carezza","place":"village","population":""    }
+   ]
+ },
+ {"id":"102819718","lat":"","lon":"","tags":   [
+    {"name":"Casatta","place":"village","population":""    }
+   ]
+ },
+ {"id":"1322573","lat":"","lon":"","tags":   [
+    {"name":"Marco","place":"village","population":""    }
+   ]
+ },
+ {"id":"1324274","lat":"","lon":"","tags":   [
+    {"name":"Tierno","place":"village","population":""    }
+   ]
+ },
+ {"id":"1333978","lat":"","lon":"","tags":   [
+    {"name":"Crosano","place":"village","population":""    }
+   ]
+ },
+ {"id":"1348909","lat":"","lon":"","tags":   [
+    {"name":"Saccone","place":"village","population":""    }
+   ]
+ },
+ {"id":"1369567","lat":"","lon":"","tags":   [
+    {"name":"Volano","place":"village","population":""    }
+   ]
+ },
+ {"id":"1370826","lat":"","lon":"","tags":   [
+    {"name":"Noriglio","place":"village","population":""    }
+   ]
+ },
+ {"id":"1377783","lat":"","lon":"","tags":   [
+    {"name":"Cornalè","place":"village","population":""    }
+   ]
+ },
+ {"id":"1384583","lat":"","lon":"","tags":   [
+    {"name":"Piazzo","place":"village","population":""    }
+   ]
+ },
+ {"id":"1384584","lat":"","lon":"","tags":   [
+    {"name":"Villa Lagarina","place":"village","population":"3129"    }
+   ]
+ },
+ {"id":"1386405","lat":"","lon":"","tags":   [
+    {"name":"Folaso","place":"village","population":""    }
+   ]
+ },
+ {"id":"1386408","lat":"","lon":"","tags":   [
+    {"name":"Reviano","place":"village","population":""    }
+   ]
+ },
+ {"id":"1386413","lat":"","lon":"","tags":   [
+    {"name":"Isera","place":"village","population":"2469"    }
+   ]
+ },
+ {"id":"1392763","lat":"","lon":"","tags":   [
+    {"name":"Nogaredo","place":"village","population":"1663"    }
+   ]
+ },
+ {"id":"1394723","lat":"","lon":"","tags":   [
+    {"name":"Brancolino","place":"village","population":""    }
+   ]
+ },
+ {"id":"1398792","lat":"","lon":"","tags":   [
+    {"name":"Savignano","place":"village","population":""    }
+   ]
+ },
+ {"id":"1401665","lat":"","lon":"","tags":   [
+    {"name":"Pedersano","place":"village","population":"957"    }
+   ]
+ },
+ {"id":"1914704","lat":"","lon":"","tags":   [
+    {"name":"Nomi","place":"village","population":"1286"    }
+   ]
+ },
+ {"id":"1928733","lat":"","lon":"","tags":   [
+    {"name":"Besenello","place":"village","population":"1753"    }
+   ]
+ },
+ {"id":"2080206","lat":"","lon":"","tags":   [
+    {"name":"Mori","place":"village","population":"10048"    }
+   ]
+ },
+ {"id":"2184851","lat":"","lon":"","tags":   [
+    {"name":"Sabbionara","place":"village","population":""    }
+   ]
+ },
+ {"id":"2196897","lat":"","lon":"","tags":   [
+    {"name":"Castelnuovo","place":"village","population":"896"    }
+   ]
+ },
+ {"id":"2217673","lat":"","lon":"","tags":   [
+    {"name":"Molini","place":"village","population":""    }
+   ]
+ },
+ {"id":"2217674","lat":"","lon":"","tags":   [
+    {"name":"Pomarolo","place":"village","population":""    }
+   ]
+ },
+ {"id":"2323539","lat":"","lon":"","tags":   [
+    {"name":"Riva di Vallarsa","place":"village","population":"54"    }
+   ]
+ },
+ {"id":"2455208","lat":"","lon":"","tags":   [
+    {"name":"Aldeno","place":"village","population":"2815"    }
+   ]
+ },
+ {"id":"2513721","lat":"","lon":"","tags":   [
+    {"name":"Foppiano","place":"village","population":""    }
+   ]
+ },
+ {"id":"2549988","lat":"","lon":"","tags":   [
+    {"name":"Grumo","place":"village","population":""    }
+   ]
+ },
+ {"id":"2667551","lat":"","lon":"","tags":   [
+    {"name":"Margone","place":"village","population":""    }
+   ]
+ },
+ {"id":"2757781","lat":"","lon":"","tags":   [
+    {"name":"Folgaria","place":"village","population":"3086"    }
+   ]
+ },
+ {"id":"3447749","lat":"","lon":"","tags":   [
+    {"name":"Lenzima","place":"village","population":""    }
+   ]
+ },
+ {"id":"6309066","lat":"","lon":"","tags":   [
+    {"name":"Calliano","place":"village","population":"1097"    }
+   ]
+ },
+ {"id":"6325837","lat":"","lon":"","tags":   [
+    {"name":"Grumino","place":"village","population":""    }
+   ]
+ },
+ {"id":"6363403","lat":"","lon":"","tags":   [
+    {"name":"Avio","place":"village","population":""    }
+   ]
+ },
+ {"id":"7184786","lat":"","lon":"","tags":   [
+    {"name":"Pozzacchio","place":"village","population":""    }
+   ]
+ }
+]
