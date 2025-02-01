@@ -1,0 +1,24 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX kge: <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#>
+PREFIX wa:<https://knowdive.disi.unitn.it/etype#>
+PREFIX time: <http://www.w3.org/2006/time#>
+
+SELECT  ?year  ?avg_temperature ?rainfall ?density
+WHERE {
+    ?weather rdf:type wa:Historical_Weather_Archive_Data .
+    ?weather wa:has_avg_temperature_GID-300012 ?avg_temperature.
+    ?weather wa:has_archive_date_time_GID-80737 ?dateString
+    
+    BIND (STRBEFORE(?dateString, "-") AS ?yearPart)
+    BIND(xsd:integer(?yearPart) AS ?year)
+    
+    ?weather wa:has_rain_precipitation_level_GID-73219 ?rainfall.
+
+    ?demographic rdf:type kge:Demographic_GID-108 .
+    ?demographic kge:has_density ?density .
+    ?demographic kge:has_demographid_id ?demoYear
+    FILTER(?year = ?demoYear)
+}
+ORDER BY DESC(?year)

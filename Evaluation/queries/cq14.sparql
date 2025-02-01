@@ -1,0 +1,23 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX kge: <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#>
+PREFIX time: <http://www.w3.org/2006/time#>
+
+SELECT ?place ?pollutant ?year ?value ?population ?placeType
+WHERE {
+    ?pollution rdf:type kge:Pollution_GID-105 .
+    ?pollution kge:has_polluting ?pollutant .
+    ?pollution kge:has_date ?dateString .
+    ?pollution kge:has_value ?value .
+    ?pollution kge:hasLocation ?pollutionLocation .
+    ?pollutionLocation kge:has_name ?pollutionCity .
+    
+    BIND(YEAR(xsd:date(?dateString)) AS ?year) 
+    
+    ?location rdf:type kge:Location_GID-101.
+    ?location kge:has_name ?place .
+    ?location kge:has_population ?population .
+    ?location kge:has_place_type ?placeType
+    FILTER(?place = ?pollutionCity)
+}
+    ORDER BY ?place ?year

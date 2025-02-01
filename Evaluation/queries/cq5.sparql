@@ -1,0 +1,20 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX kge: <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#>
+PREFIX time: <http://www.w3.org/2006/time#>
+
+SELECT ?year ?total_energy ?demo_year
+WHERE {
+    ?consumption rdf:type kge:ConsumptionData_GID-102 .
+    ?consumption kge:has_global_energy ?total_energy .
+    ?consumption kge:has_year_of_construct ?year.
+    ?consumption kge:has_municipality ?municipality .
+    
+    ?demographic rdf:type kge:Demographic_GID-108 .
+    ?demographic kge:has_density ?density .
+    ?demographic kge:has_demographid_id ?demo_year
+
+    FILTER(?municipality = "Trento" && ?year = ?demo_year)
+}
+ORDER BY ?year

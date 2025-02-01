@@ -1,1 +1,6 @@
-This directory stores the project report document and the final presentation (slides) of the project
+# Documentation
+
+This directory contains:
+
+- The final report;
+- The presentation for the project;

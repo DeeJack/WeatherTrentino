@@ -1,0 +1,176 @@
+<http://localhost:8080/source/2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2001> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "940.566   " .
+<http://localhost:8080/source/2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2001> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2001" .
+<http://localhost:8080/source/2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://localhost:8080/source/2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2003> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2003" .
+<http://localhost:8080/source/2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2003> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "962.464   " .
+<http://localhost:8080/source/2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+
+<http://localhost:8080/source/2004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2004> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "974.613   " .
+<http://localhost:8080/source/2004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2004> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2004" .
+<http://localhost:8080/source/2004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://localhost:8080/source/2005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2005> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "985.128   " .
+<http://localhost:8080/source/2005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2005> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2005" .
+<http://localhost:8080/source/2005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+
+<http://localhost:8080/source/2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2006> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "994.703   " .
+<http://localhost:8080/source/2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2006> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2006" .
+
+<http://localhost:8080/source/2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2007> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2007" .
+<http://localhost:8080/source/2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2007> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.007.267" .
+<http://localhost:8080/source/2007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://localhost:8080/source/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2008> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2008" .
+<http://localhost:8080/source/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2008> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.018.657" .
+
+<http://localhost:8080/source/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2009> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.028.260" .
+<http://localhost:8080/source/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2009> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2009" .
+<http://localhost:8080/source/2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+
+<http://localhost:8080/source/2010> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2010" .
+<http://localhost:8080/source/2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2010> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.037.114" .
+
+<http://localhost:8080/source/2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2011> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2011" .
+<http://localhost:8080/source/2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2011> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.043.469" .
+
+<http://localhost:8080/source/2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2011> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2011" .
+<http://localhost:8080/source/2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2011> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.029.475" .
+
+<http://localhost:8080/source/2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2012> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2012" .
+<http://localhost:8080/source/2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2012> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.039.934" .
+<http://localhost:8080/source/2012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://localhost:8080/source/2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2013> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.051.951" .
+<http://localhost:8080/source/2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2013> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2013" .
+<http://localhost:8080/source/2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+
+<http://localhost:8080/source/2014> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.055.934" .
+<http://localhost:8080/source/2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2014> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2014" .
+<http://localhost:8080/source/2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+
+<http://localhost:8080/source/2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2015> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.059.114" .
+<http://localhost:8080/source/2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2015> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2015" .
+
+<http://localhost:8080/source/2016> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2016" .
+<http://localhost:8080/source/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2016> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.062.860" .
+<http://localhost:8080/source/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+
+<http://localhost:8080/source/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2017> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.067.648" .
+<http://localhost:8080/source/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2017> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2017" .
+<http://localhost:8080/source/2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+
+<http://localhost:8080/source/2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2018> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.074.034" .
+<http://localhost:8080/source/2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2018> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2018" .
+<http://localhost:8080/source/2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+
+<http://localhost:8080/source/2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2019> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.078.069" .
+<http://localhost:8080/source/2019> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2019" .
+
+<http://localhost:8080/source/2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2020> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.077.078" .
+<http://localhost:8080/source/2020> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2020" .
+<http://localhost:8080/source/2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://localhost:8080/source/2022> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2022" .
+<http://localhost:8080/source/2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2022> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.077.143" .
+<http://localhost:8080/source/2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+<http://localhost:8080/source/2022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://localhost:8080/source/2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Entity_GID-1> .
+<http://localhost:8080/source/2023> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_density> "1.082.702" .
+<http://localhost:8080/source/2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Demographic_GID-108> .
+<http://localhost:8080/source/2023> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_demographid_id> "2023" .
+<http://localhost:8080/source/2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#ComplexType> .
+<http://localhost:8080/source/2023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Context_GID-120016> .
+

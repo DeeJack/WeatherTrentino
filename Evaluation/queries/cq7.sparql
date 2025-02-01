@@ -1,0 +1,29 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX kge: <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#>
+PREFIX time: <http://www.w3.org/2006/time#>
+
+SELECT ?station ?pollutant ?date1 ?date2 ?value1 ?value2 (xsd:float(?value2) - xsd:float(?value1) AS ?change)
+WHERE {
+    ?pollution1 rdf:type kge:Pollution_GID-105 ;
+    kge:has_polluting ?pollutant ;
+    kge:has_value ?value1 ;
+    kge:has_date ?dateString1;
+    kge:has_hour ?hourString1;
+    kge:has_station ?station1.
+
+    ?pollution2 rdf:type kge:Pollution_GID-105 ;
+    kge:has_polluting ?pollutant ;
+    kge:has_value ?value2;
+    kge:has_date ?dateString2;
+    kge:has_hour ?hourString2;
+    kge:has_station ?station2.
+
+    BIND(xsd:dateTime(concat(?dateString1,"T",?hourString1,":00:00")) as ?dateTime1)
+    BIND(xsd:dateTime(concat(?dateString2,"T",?hourString2,":00:00")) as ?dateTime2)
+
+    FILTER (?dateTime1 - ?dateTime2 = xsd:dayTimeDuration("P1D") || (?startTime - ?endTime = xsd:dayTimeDuration("P1D")))
+    FILTER (?station1 = ?station2 )
+}
+ORDER BY ?station  DESC(?change)

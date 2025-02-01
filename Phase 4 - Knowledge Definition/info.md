@@ -1,1 +1,3 @@
-In this directory you have store all the material considered and created for the knowledge definition phase
+# Phase 4: Knowledge Definition
+
+This directory contains the output produced during the knowledge definition phases.

@@ -1,10 +1,10 @@
 # Datasets
 
-Datasets used in the report. Saved here for convenience.
+Raw dataset used in the report. For the cleaned datasets, see [Phase 2](../Phase%202%20-%20Information%20Gathering/DataCleaning/).
 
 Weather:
 
-- [ilMeteo.it](): <https://www.ilmeteo.it/portale/archivio-meteo/Trento>
+- ilMeteo.it: <https://www.ilmeteo.it/portale/archivio-meteo/Trento>
 
 Pollution:
 
@@ -25,4 +25,9 @@ Air Quality:
 
 Demographic:
 
-- [Open Data](): <https://dati.trentino.it/dataset/densita-demografica2> [NOT LOADING]
+- Open Data: <https://dati.trentino.it/dataset/densita-demografica2> [NOT LOADING]
+- [Tuttitalia](./trentino_demographic.csv): <https://www.tuttitalia.it/trentino-alto-adige/statistiche/popolazione-andamento-demografico/>
+
+Locations:
+
+- [OpenStreetMaps](./location.json): <https://www.openstreetmap.org/#map=5/42.09/12.56>

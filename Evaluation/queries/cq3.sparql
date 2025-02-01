@@ -1,0 +1,18 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX kge: <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#>
+PREFIX time: <http://www.w3.org/2006/time#>
+
+SELECT ?waste_year ?total_waste ?air_quality_value
+WHERE {
+    ?waste rdf:type kge:Waste_GID-103 .
+    ?waste kge:has_year ?waste_year .
+    ?waste kge:has_total ?total_waste.
+
+    ?air rdf:type kge:AirQuality_GID-104 .
+    ?air kge:has_year ?air_quality_year .
+    ?air kge:has_trentino_value ?air_quality_value
+    FILTER(?waste_year = ?air_quality_year )
+}
+ORDER BY ?waste_year

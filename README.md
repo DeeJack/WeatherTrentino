@@ -64,3 +64,11 @@ The project is licensed under Apache License 2.0, see [LICENSE](./LICENSE) for m
 ![Protege Data Properties](images/protege.png)
 
 ![ER model](images/er.png)
+
+## Results
+
+[PDF report](Documentation/KGE_2024_7_Climate_Changes.pdf)
+
+[Knowledge Graphs](Phase%205%20-%20Entity%20Definition/mapping/final/knowledge_graphs/)
+
+[Models](Phase%205%20-%20Entity%20Definition/mapping/final/models/)

@@ -1,0 +1,14 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX kge: <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#>
+PREFIX time: <http://www.w3.org/2006/time#>
+
+SELECT ?emission ?year
+WHERE {
+    ?consumption rdf:type kge:ConsumptionData_GID-102 .
+    ?consumption kge:has_co2_emission ?emission .
+    ?consumption kge:has_year_of_construct ?year
+    BIND(xsd:integer(?year) AS ?year_int)
+    FILTER(?year_int >= (year(now()) - 10) && ?year_int <= year(now()))
+}
+ORDER BY ?year

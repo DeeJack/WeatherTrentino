@@ -1,0 +1,694 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1iioqdu49x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "location.json-WSP1WS5.json" ;
+	km-dev:modelPublicationTime "1738147297419"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"id\"}],[{\"columnName\":\"tags\"},{\"columnName\":\"name\"}],[{\"columnName\":\"lat\"}],[{\"columnName\":\"tags\"},{\"columnName\":\"place\"}],[{\"columnName\":\"lon\"}],[{\"columnName\":\"tags\"},{\"columnName\":\"population\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"id\"}],[{\"columnName\":\"tags\"},{\"columnName\":\"name\"}],[{\"columnName\":\"lat\"}],[{\"columnName\":\"tags\"},{\"columnName\":\"place\"}],[{\"columnName\":\"lon\"}],[{\"columnName\":\"tags\"},{\"columnName\":\"population\"}],[{\"columnName\":\"URI\"}]]" ;
+	km-dev:hasModelLabel "location.json-WSP1WS5.json" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"URI\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return getValue(\\\"id\\\")\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"URI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"OrganizeColumnsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"type\": \"orderedColumns\",
+                \"value\": [
+                    {
+                        \"visible\": true,
+                        \"name\": \"URI\",
+                        \"id\": [{\"columnName\": \"URI\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"id\",
+                        \"id\": [{\"columnName\": \"id\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"lat\",
+                        \"id\": [{\"columnName\": \"lat\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"lon\",
+                        \"id\": [{\"columnName\": \"lon\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"children\": \"[{\\\"visible\\\":true,\\\"name\\\":\\\"name\\\",\\\"id\\\":[{\\\"columnName\\\":\\\"tags\\\"},{\\\"columnName\\\":\\\"name\\\"}]},{\\\"visible\\\":true,\\\"name\\\":\\\"place\\\",\\\"id\\\":[{\\\"columnName\\\":\\\"tags\\\"},{\\\"columnName\\\":\\\"place\\\"}]},{\\\"visible\\\":true,\\\"name\\\":\\\"population\\\",\\\"id\\\":[{\\\"columnName\\\":\\\"tags\\\"},{\\\"columnName\\\":\\\"population\\\"}]}]\",
+                        \"name\": \"tags\",
+                        \"id\": [{\"columnName\": \"tags\"}]
+                    }
+                ]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [
+            \"Transformation\",
+            \"IgnoreInBatch\"
+        ]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-1011\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_location_id\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101/Location_GID-1011 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"lat\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-1011\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_latitude\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101/Location_GID-1011\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lat\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lat\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"lon\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-1011\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_longitude\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101/Location_GID-1011\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lon\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"lon\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"tags\"},
+                    {\"columnName\": \"name\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-1011\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_name\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101/Location_GID-1011\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"tags\\\"},{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"tags\\\"},{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"tags\"},
+                    {\"columnName\": \"place\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-1011\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_place_type\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101/Location_GID-1011\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"tags\\\"},{\\\"columnName\\\":\\\"place\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"tags\\\"},{\\\"columnName\\\":\\\"place\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"tags\"},
+                    {\"columnName\": \"population\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-1011\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_population\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101/Location_GID-1011\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"tags\\\"},{\\\"columnName\\\":\\\"population\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"tags\\\"},{\\\"columnName\\\":\\\"population\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"URI\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-1011\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101\",
+                    \"DomainId\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-1011\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101/Location_GID-1011\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"URI\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"URI\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_bf1c14db-7550-4c99-87f7-5c9c963c17fc a rr:TriplesMap .
+
+_:node1iioqdu49x1 km-dev:hasTriplesMap km-dev:TriplesMap_bf1c14db-7550-4c99-87f7-5c9c963c17fc .
+
+km-dev:TriplesMap_bf1c14db-7550-4c99-87f7-5c9c963c17fc km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x2 rr:tableName "location.json-WSP1WS5.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x1 km-dev:hasLogicalTable _:node1iioqdu49x2 .
+
+km-dev:TriplesMap_bf1c14db-7550-4c99-87f7-5c9c963c17fc rr:logicalTable _:node1iioqdu49x2 ;
+	rr:subjectMap _:node1iioqdu49x3 .
+
+_:node1iioqdu49x1 km-dev:hasSubjectMap _:node1iioqdu49x3 .
+
+_:node1iioqdu49x3 km-dev:isPartOfMapping _:node1iioqdu49x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-1011" ;
+	rr:class <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#Location_GID-101> ;
+	rr:template "{id}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_66f65f09-ec42-4722-b9ee-86705d06d7a5 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_location_id> .
+
+_:node1iioqdu49x4 rr:column "id" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x1 km-dev:hasObjectMap _:node1iioqdu49x4 .
+
+km-dev:PredicateObjectMap_66f65f09-ec42-4722-b9ee-86705d06d7a5 rr:objectMap _:node1iioqdu49x4 .
+
+km-dev:TriplesMap_bf1c14db-7550-4c99-87f7-5c9c963c17fc rr:predicateObjectMap km-dev:PredicateObjectMap_66f65f09-ec42-4722-b9ee-86705d06d7a5 .
+
+km-dev:PredicateObjectMap_66f65f09-ec42-4722-b9ee-86705d06d7a5 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_66f65f09-ec42-4722-b9ee-86705d06d7a5 .
+
+km-dev:PredicateObjectMap_f6b519bc-cbf6-4704-84c9-ff8801689d3f rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_name> .
+
+_:node1iioqdu49x5 rr:column "[\"tags\",\"name\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x1 km-dev:hasObjectMap _:node1iioqdu49x5 .
+
+km-dev:PredicateObjectMap_f6b519bc-cbf6-4704-84c9-ff8801689d3f rr:objectMap _:node1iioqdu49x5 .
+
+km-dev:TriplesMap_bf1c14db-7550-4c99-87f7-5c9c963c17fc rr:predicateObjectMap km-dev:PredicateObjectMap_f6b519bc-cbf6-4704-84c9-ff8801689d3f .
+
+km-dev:PredicateObjectMap_f6b519bc-cbf6-4704-84c9-ff8801689d3f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f6b519bc-cbf6-4704-84c9-ff8801689d3f .
+
+km-dev:PredicateObjectMap_4fc6d5d0-45fe-4d91-9abb-e437332e1b5c rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_latitude> .
+
+_:node1iioqdu49x6 rr:column "lat" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x1 km-dev:hasObjectMap _:node1iioqdu49x6 .
+
+km-dev:PredicateObjectMap_4fc6d5d0-45fe-4d91-9abb-e437332e1b5c rr:objectMap _:node1iioqdu49x6 .
+
+km-dev:TriplesMap_bf1c14db-7550-4c99-87f7-5c9c963c17fc rr:predicateObjectMap km-dev:PredicateObjectMap_4fc6d5d0-45fe-4d91-9abb-e437332e1b5c .
+
+km-dev:PredicateObjectMap_4fc6d5d0-45fe-4d91-9abb-e437332e1b5c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4fc6d5d0-45fe-4d91-9abb-e437332e1b5c .
+
+km-dev:PredicateObjectMap_63cddc4b-cf08-4374-bdec-524b8bf6e13a rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_place_type> .
+
+_:node1iioqdu49x7 rr:column "[\"tags\",\"place\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x1 km-dev:hasObjectMap _:node1iioqdu49x7 .
+
+km-dev:PredicateObjectMap_63cddc4b-cf08-4374-bdec-524b8bf6e13a rr:objectMap _:node1iioqdu49x7 .
+
+km-dev:TriplesMap_bf1c14db-7550-4c99-87f7-5c9c963c17fc rr:predicateObjectMap km-dev:PredicateObjectMap_63cddc4b-cf08-4374-bdec-524b8bf6e13a .
+
+km-dev:PredicateObjectMap_63cddc4b-cf08-4374-bdec-524b8bf6e13a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_63cddc4b-cf08-4374-bdec-524b8bf6e13a .
+
+km-dev:PredicateObjectMap_8ea310cc-56e5-4eec-992e-4e8b5cfb9e4f rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_longitude> .
+
+_:node1iioqdu49x8 rr:column "lon" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x1 km-dev:hasObjectMap _:node1iioqdu49x8 .
+
+km-dev:PredicateObjectMap_8ea310cc-56e5-4eec-992e-4e8b5cfb9e4f rr:objectMap _:node1iioqdu49x8 .
+
+km-dev:TriplesMap_bf1c14db-7550-4c99-87f7-5c9c963c17fc rr:predicateObjectMap km-dev:PredicateObjectMap_8ea310cc-56e5-4eec-992e-4e8b5cfb9e4f .
+
+km-dev:PredicateObjectMap_8ea310cc-56e5-4eec-992e-4e8b5cfb9e4f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8ea310cc-56e5-4eec-992e-4e8b5cfb9e4f .
+
+km-dev:PredicateObjectMap_33c3cc2e-92a4-4cee-a5fa-a4eebb0151c1 rr:predicate <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#has_population> .
+
+_:node1iioqdu49x9 rr:column "[\"tags\",\"population\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x1 km-dev:hasObjectMap _:node1iioqdu49x9 .
+
+km-dev:PredicateObjectMap_33c3cc2e-92a4-4cee-a5fa-a4eebb0151c1 rr:objectMap _:node1iioqdu49x9 .
+
+km-dev:TriplesMap_bf1c14db-7550-4c99-87f7-5c9c963c17fc rr:predicateObjectMap km-dev:PredicateObjectMap_33c3cc2e-92a4-4cee-a5fa-a4eebb0151c1 .
+
+km-dev:PredicateObjectMap_33c3cc2e-92a4-4cee-a5fa-a4eebb0151c1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1iioqdu49x1 .
+
+_:node1iioqdu49x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_33c3cc2e-92a4-4cee-a5fa-a4eebb0151c1 .

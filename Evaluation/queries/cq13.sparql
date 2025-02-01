@@ -1,0 +1,20 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX kge: <https://knowdive.disi.unitn.it/etype#>
+PREFIX time: <http://www.w3.org/2006/time#>
+
+SELECT ?year (AVG(?temperature) AS ?averageTemperature)
+WHERE {
+    ?weather rdf:type kge:Historical_Weather_Archive_Data .
+    ?weather kge:has_avg_temperature_GID-300012 ?temperatureString .
+    ?weather kge:has_archive_date_time_GID-80737 ?dateString
+    BIND (STRBEFORE(?dateString, "-") AS ?yearPart)
+
+    BIND(xsd:integer(?yearPart) AS ?year)
+    BIND(xsd:float(?temperatureString) AS ?temperature)
+
+    FILTER(?year >= (YEAR(NOW()) - 50) && ?year <= YEAR(NOW()))
+}
+GROUP BY ?year
+ORDER BY ?year
