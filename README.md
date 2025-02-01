@@ -69,6 +69,6 @@ The project is licensed under Apache License 2.0, see [LICENSE](./LICENSE) for m
 
 [PDF report](Documentation/KGE_2024_7_Climate_Changes.pdf)
 
-[Knowledge Graphs](Phase%205%20-%20Entity%20Definition/mapping/final/knowledge_graphs/)
+[Knowledge Graphs](Phase%205%20-%20Entity%20Definition/knowledge_graphs/)
 
-[Models](Phase%205%20-%20Entity%20Definition/mapping/final/models/)
+[Models](Phase%205%20-%20Entity%20Definition/models/)
