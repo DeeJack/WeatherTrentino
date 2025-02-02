@@ -39,6 +39,14 @@ Clone the repository:
 git clone https://github.com/DeeJack/WeatherTrentino.git
 ```
 
+Explore the repository, the structure is the following:
+
+- `Data/`: contains the raw datasets;
+- `Documentation/`: contains the final report;
+- `Evaluation/`: contains the code used for the evaluation phase, together with the SparQL queries;
+- `Metadata/`: contains the spreadsheets with the metadata;
+- `Phase 1` through `Phase 5`: contain all the material and code used/produced by those phases.
+
 ## Tools and technologies
 
 - Python: language used for scraping, cleaning, formatting, transforming the data;
