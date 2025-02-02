@@ -4,15 +4,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX kge: <http://www.semanticweb.org/loren/ontologies/2024/10/weather_trentino#>
 PREFIX time: <http://www.w3.org/2006/time#>
 
-SELECT ?waste_year ?total_waste ?air_quality_value
+SELECT ?waste_year (SUM(?total_waste) AS ?total_waste_sum) (SAMPLE(?air_quality_value) AS ?air_quality_value)
 WHERE {
     ?waste rdf:type kge:Waste_GID-103 .
     ?waste kge:has_year ?waste_year .
-    ?waste kge:has_total ?total_waste.
+    ?waste kge:has_total ?total_waste_str .
+    BIND(xsd:float(?total_waste_str) as ?total_waste) .
 
     ?air rdf:type kge:AirQuality_GID-104 .
     ?air kge:has_year ?air_quality_year .
-    ?air kge:has_trentino_value ?air_quality_value
-    FILTER(?waste_year = ?air_quality_year )
+    ?air kge:has_trentino_value ?air_quality_value .
+    FILTER(?waste_year = ?air_quality_year)
 }
+GROUP BY ?waste_year
 ORDER BY ?waste_year
